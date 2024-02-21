@@ -7,9 +7,22 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdotdev/blum.js.git"
+  },
+  "keywords": [
+    "q&a",
+    "questions",
+    "answers",
+    "quiz"
+  ],
+  "author": "andrewdotdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andrespolicrack/blum.js/issues"
+  },
+  "homepage": "https://github.com/Andrespolicrack/blum.js#readme",
   "devDependencies": {
     "@types/node": "^20.11.19"
   }

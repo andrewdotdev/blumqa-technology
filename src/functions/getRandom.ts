@@ -1,13 +1,18 @@
-const en = require('../questions/en.json');
-const es = require('../questions/es.json');
+const en = require('../../questions/en.json');
+const es = require('../../questions/es.json');
 
 /** 
- * @param lang Options: 'en' or 'es'
+ * Get a random q&a
+ * @param lang Options are 'en' or 'es'
 */
 
-export default function getRandom (lang: string) {
+export function getRandom (lang: string) {
     if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
-    return lang[select(lang)]
+    if(lang == es) {
+        return es[select(es)]
+    } else {
+        return en[select(en)]
+    }
 }
 
 function select (lang: string) {

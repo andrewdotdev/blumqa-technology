@@ -1,4 +1,2 @@
-import getRandom from "./functions/getRandom";
-import getById from "./functions/getById";
-
-export default { getRandom, getById}
+export {getRandom} from "./functions/getRandom.js";
+export {getById} from "./functions/getById.js";
