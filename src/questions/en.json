@@ -1,0 +1,9 @@
+[
+    {"id": 1, "question": "What is the name of the new space telescope that NASA recently launched?", "answer": "The James Webb Space Telescope", "options": ["Hubble Space Telescope 2", "The James Webb Space Telescope", "Galileo Space Telescope", "Kepler Space Telescope 2"]},
+    {"id": 2, "question": "What is the name of the first human to walk on the moon?", "answer": "Neil Armstrong", "options": ["Buzz Aldrin", "Michael Collins", "Neil Armstrong", "Alan Shepard"]},
+    {"id": 3, "question": "What is the largest planet in the solar system?", "answer": "Jupiter", "options": ["Mars", "Jupiter", "Saturn", "Uranus"]},
+    {"id": 4, "question": "How many moons does the planet Saturn have?", "answer": "82", "options": ["27", "63", "82", "110"]},
+    {"id": 5, "question": "Who was the first cosmonaut to travel to space?", "answer": "Yuri Gagarin", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]},
+    {"id": 6, "question": "What is the closest star to Earth?", "answer": "The Sun", "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "The Sun"]},
+    {"id": 7, "question": "What is the space agency responsible for China's space program?", "answer": "CNSA (China National Space Administration)", "options": ["NASA (National Aeronautics and Space Administration)", "ESA (European Space Agency)", "CNSA (China National Space Administration)", "Roscosmos (Russian Federal Space Agency)"]}
+]

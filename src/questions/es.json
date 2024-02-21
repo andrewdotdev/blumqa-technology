@@ -1,0 +1,9 @@
+[
+    {"id": 1, "question": "¿Cuál es el nombre del nuevo telescopio espacial que la NASA lanzó recientemente?", "answer": "El telescopio espacial James Webb", "options": ["Telescopio espacial Hubble 2", "El telescopio espacial James Webb", "Telescopio espacial Galileo", "Telescopio espacial Kepler 2"]},
+    {"id": 2, "question": "¿Cuál es el nombre del primer ser humano en pisar la luna?",  "answer": "Neil Armstrong",  "options": ["Buzz Aldrin", "Michael Collins", "Neil Armstrong", "Alan Shepard"]},
+    {"id": 3, "question": "¿Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "options": ["Marte", "Júpiter", "Saturno", "Urano"]},
+    {"id": 4, "question": "¿Cuántas lunas tiene el planeta Saturno?", "answer": "82", "options": ["27", "63", "82", "110"]},
+    {"id": 5, "question": "¿Quién fue el primer cosmonauta en viajar al espacio?", "answer": "Yuri Gagarin", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]}, 
+    {"id": 6, "question": "¿Cuál es la estrella más cercana a la Tierra?", "answer": "El Sol", "options": ["Alfa Centauri", "Sirio", "Proxima Centauri", "El Sol"]},
+    {"id": 7, "question": "¿Cuál es la agencia espacial encargada del programa espacial chino?", "answer": "CNSA (Administración del Programa Espacial de China)", "options": ["NASA (Administración Nacional de Aeronáutica y del Espacio)", "ESA (Agencia Espacial Europea)", "CNSA (Administración del Programa Espacial de China)", "Roscosmos (Agencia Espacial Federal Rusa)"]} 
+]
