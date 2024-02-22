@@ -8,11 +8,8 @@ const es = require('../../questions/es.json');
 
 export function getRandom (lang: string) {
     if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
-    if(lang == es) {
-        return es[select(es)]
-    } else {
-        return en[select(en)]
-    }
+    let language: [] = (lang === 'en' ? en : es);
+    return language[select(lang)]
 }
 
 function select (lang: string) {
