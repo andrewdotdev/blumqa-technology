@@ -1,6 +1,6 @@
 {
   "name": "@blumqa/astrology",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's' a package to use dynamic q&a (questions and answers) of astrology",
   "main": "dist/index.js",
   "scripts": {
