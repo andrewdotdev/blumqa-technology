@@ -1,5 +1,5 @@
-const en = require('../../questions/en.json');
-const es = require('../../questions/es.json');
+import es from'../../questions/es.json'
+import en from'../../questions/en.json'
 
 /**
  * Get a q&a by the id
@@ -9,7 +9,7 @@ const es = require('../../questions/es.json');
 
 export function getById(lang: string, id: number) {
     if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
-    let language: [] = (lang === 'en' ? en : es);
+    let language = (lang === 'en' ? en : es);
     if(id < 1) id = 1
     if(language.length < id) id = language.length
     return language[id-1]

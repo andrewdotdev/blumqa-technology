@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/andrewdotdev/blumqa-astrology/issues"
   },
-  "homepage": "https://github.com/andrewdotdev/blumqa-astrology#readme",
-  "devDependencies": {
-    "@types/node": "^20.11.19"
-  }
+  "homepage": "https://github.com/andrewdotdev/blumqa-astrology#readme"
 }
