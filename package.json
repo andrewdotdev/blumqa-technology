@@ -1,6 +1,6 @@
 {
   "name": "@blumqa/astronomy",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "It's' a package to use dynamic q&a (questions and answers) of astronomy",
   "main": "dist/index.js",
   "scripts": {
