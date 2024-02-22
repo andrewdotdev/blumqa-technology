@@ -1,7 +1,7 @@
 {
-  "name": "blum.js",
+  "name": "blum.qa",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's' a package to use dynamic q&a (questions and answers)",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
