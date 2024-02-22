@@ -1,5 +1,5 @@
-const en = require('../../questions/en.json');
-const es = require('../../questions/es.json');
+import es from'../../questions/es.json'
+import en from'../../questions/en.json'
 
 /** 
  * Get a random q&a
@@ -8,7 +8,7 @@ const es = require('../../questions/es.json');
 
 export function getRandom (lang: string) {
     if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
-    let language: [] = (lang === 'en' ? en : es);
+    let language = (lang === 'en' ? en : es);
     return language[select(lang)]
 }
 

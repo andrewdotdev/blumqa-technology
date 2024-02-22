@@ -27,6 +27,7 @@
       "noErrorTruncation": true,
       "outDir": "./dist",
       "stripInternal": true,
+      "resolveJsonModule": true
   },
   "exclude": [
       "**/dist",

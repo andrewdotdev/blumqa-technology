@@ -1,7 +1,7 @@
 {
-  "name": "blum.qa",
+  "name": "@blumqa/astrology",
   "version": "1.0.2",
-  "description": "It's' a package to use dynamic q&a (questions and answers)",
+  "description": "It's' a package to use dynamic q&a (questions and answers) of astrology",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -9,20 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewdotdev/blum.js.git"
+    "url": "git+https://github.com/andrewdotdev/blumqa-astrology.git"
   },
   "keywords": [
     "q&a",
     "questions",
     "answers",
-    "quiz"
+    "quiz",
+    "astrology",
+    "trivia"
   ],
   "author": "andrewdotdev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Andrespolicrack/blum.js/issues"
+    "url": "https://github.com/andrewdotdev/blumqa-astrology/issues"
   },
-  "homepage": "https://github.com/Andrespolicrack/blum.js#readme",
+  "homepage": "https://github.com/andrewdotdev/blumqa-astrology#readme",
   "devDependencies": {
     "@types/node": "^20.11.19"
   }
