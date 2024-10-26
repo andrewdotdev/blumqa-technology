@@ -23,7 +23,7 @@ getById(lang: string, id: number) // Output: {id: number, question: string, answ
 ```
 ## Example
 ```ts
-const { getRandom, getById } = require('@blumqa/astronomy')
+import { getRandom, getById } from '@blumqa/astronomy'
 
 console.log(getRandom('en')) // Output: {id: number, question: string, answer: string, options: string[]}
 console.log(getById('es', 5)) // Output: {id: 5, question: "¿Quién fue el primer cosmonauta en viajar al espacio?", answer: "Yuri Gagarin", options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]}
