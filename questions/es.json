@@ -1,152 +1,2629 @@
 [
-    {"id": 1, "question": "¿Cuál es el nombre del nuevo telescopio espacial que la NASA lanzó recientemente?", "answer": "El Telescopio Espacial James Webb", "options": ["Telescopio Espacial Hubble 2", "El Telescopio Espacial James Webb", "Telescopio Espacial Galileo", "Telescopio Espacial Kepler 2"]},
-    {"id": 2, "question": "¿Cuál es el nombre del primer humano en caminar sobre la luna?", "answer": "Neil Armstrong", "options": ["Buzz Aldrin", "Michael Collins", "Neil Armstrong", "Alan Shepard"]},
-    {"id": 3, "question": "¿Cuál es el planeta más grande en el sistema solar?", "answer": "Júpiter", "options": ["Marte", "Júpiter", "Saturno", "Urano"]},
-    {"id": 4, "question": "¿Cuántas lunas tiene el planeta Saturno?", "answer": "82", "options": ["27", "63", "82", "110"]},
-    {"id": 5, "question": "¿Quién fue el primer cosmonauta en viajar al espacio?", "answer": "Yuri Gagarin", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]},
-    {"id": 6, "question": "¿Cuál es la estrella más cercana a la Tierra?", "answer": "El Sol", "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "El Sol"]},
-    {"id": 7, "question": "¿Qué agencia espacial es responsable del programa espacial de China?", "answer": "CNSA (Administración Espacial Nacional China)", "options": ["NASA (Administración Nacional de Aeronáutica y del Espacio)", "ESA (Agencia Espacial Europea)", "CNSA (Administración Espacial Nacional China)", "Roscosmos (Agencia Espacial Federal Rusa)"]},
-    {"id": 8, "question": "¿Cuál es el fenómeno donde la luz de un objeto celeste es bloqueada por otro objeto?", "answer": "Eclipse", "options": ["Nova", "Eclipse", "Supernova", "Asteroide"]},
-    {"id": 9, "question": "¿Cuál es el nombre del volcán más grande del sistema solar, ubicado en Marte?", "answer": "Monte Olimpo", "options": ["Monte Everest", "Mauna Loa", "Monte Vesubio", "Monte Olimpo"]},
-    {"id": 10, "question": "¿Cuál es el nombre de la segunda estrella más brillante en el cielo nocturno?", "answer": "Canopus", "options": ["Sirius", "Betelgeuse", "Vega", "Canopus"]},
-    {"id": 11, "question": "¿Cómo se llama el estudio de los cuerpos celestes y fenómenos fuera de la atmósfera terrestre?", "answer": "Astronomía", "options": ["Astrología", "Astronomía", "Cosmología", "Meteorología"]},
-    {"id": 12, "question": "¿Cuál es el nombre de la luna más grande de Saturno?", "answer": "Titán", "options": ["Europa", "Titán", "Ganímedes", "Calisto"]},
-    {"id": 13, "question": "¿Cuál es el nombre del primer satélite artificial de la Tierra, lanzado por la Unión Soviética en 1957?", "answer": "Sputnik 1", "options": ["Explorer 1", "Sputnik 1", "Vanguard 1", "Telstar 1"]},
-    {"id": 14, "question": "¿Cuál es el nombre del efecto que hace que la posición de una estrella parezca desplazada cuando se ve desde diferentes posiciones en la órbita de la Tierra?", "answer": "Paralaje estelar", "options": ["Lente gravitacional", "Corrimiento al rojo", "Paralaje estelar", "Efecto Doppler"]},
-    {"id": 15, "question": "¿Cuál es el nombre del proceso por el cual una estrella convierte hidrógeno en helio?", "answer": "Fusión nuclear", "options": ["Fisión nuclear", "Fusión nuclear", "Sublimación", "Condensación"]},
-    {"id": 16, "question": "¿Cuál es el nombre de la nave espacial lanzada por la NASA en 1977 para estudiar los planetas exteriores?", "answer": "Voyager 1", "options": ["Pioneer 10", "Viking 1", "Voyager 1", "Nuevos Horizontes"]},
-    {"id": 17, "question": "¿Cuál es el nombre de la galaxia que contiene nuestro sistema solar?", "answer": "Vía Láctea", "options": ["Andrómeda", "Vía Láctea", "Triángulo", "Sombrero"]},
-    {"id": 18, "question": "¿Cuál es el nombre del fenómeno donde una pequeña parte de la superficie del Sol aparece más oscura que las áreas circundantes?", "answer": "Mancha solar", "options": ["Erupción solar", "Mancha solar", "Prominencia", "Eyección de masa coronal"]},
-    {"id": 19, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en Marte en 2021, como parte del Programa de Exploración de Marte de la NASA?", "answer": "Perseverance", "options": ["Curiosity", "Spirit", "Perseverance", "Opportunity"]},
-    {"id": 20, "question": "¿Cuál es el nombre de la nave espacial que llevó a los primeros humanos a la Luna?", "answer": "Apolo 11", "options": ["Géminis 4", "Mercurio 7", "Apolo 11", "Soyuz 11"]},
-    {"id": 21, "question": "¿Cuál es el nombre del punto en el cielo directamente sobre un observador?", "answer": "Cenit", "options": ["Ápex", "Nadir", "Cenit", "Horizonte"]},
-    {"id": 22, "question": "¿Cuál es el nombre del sistema estelar que consiste en tres estrellas, incluyendo a Alpha Centauri A, Alpha Centauri B y Proxima Centauri?", "answer": "Alpha Centauri", "options": ["Sirius", "Alpha Centauri", "Betelgeuse", "Vega"]},
-    {"id": 23, "question": "¿Qué tipo de galaxia es la Vía Láctea?", "answer": "Espiral", "options": ["Eliptica", "Irregular", "Espiral", "Lenticular"]},
-    {"id": 24, "question": "¿Cuál es el nombre del primer satélite de Plutón, descubierto en 1978?", "answer": "Caronte", "options": ["Nix", "Caronte", "Hydra", "Estigia"]},
-    {"id": 25, "question": "¿Cuál es el nombre del planeta conocido como el 'Planeta Rojo'?", "answer": "Marte", "options": ["Venus", "Marte", "Júpiter", "Mercurio"]},
-    {"id": 26, "question": "¿Cuál es el nombre de la nube de gas y polvo en el espacio donde nacen las estrellas?", "answer": "Nebulosa", "options": ["Cuásar", "Púlsar", "Nebulosa", "Remanente de supernova"]},
-    {"id": 27, "question": "¿Cuál es el nombre del proceso por el cual una estrella agota su combustible nuclear y colapsa bajo su propia gravedad?", "answer": "Supernova", "options": ["Nebulosa", "Protostar", "Supernova", "Gigante roja"]},
-    {"id": 28, "question": "¿Cuál es el nombre del planeta enano ubicado en el Cinturón de Kuiper, anteriormente conocido como el noveno planeta del sistema solar?", "answer": "Plutón", "options": ["Eris", "Plutón", "Haumea", "Makemake"]},
-    {"id": 29, "question": "¿Cuál es el nombre del fenómeno donde la luz se desvía debido a la atracción gravitacional de un objeto masivo?", "answer": "Lente gravitacional", "options": ["Corrimiento al rojo", "Paralaje estelar", "Lente gravitacional", "Efecto Doppler"]},
-    {"id": 30, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Venus?", "answer": "Venera 7", "options": ["Mariner 10", "Venera 7", "Viking 1", "Magallanes"]},
-    {"id": 31, "question": "¿Cuál es el nombre del punto en el cielo opuesto al cenit?", "answer": "Nadir", "options": ["Ápice", "Nadir", "Cenit", "Horizonte"]},
-    {"id": 32, "question": "¿Cuál es el nombre de la nave espacial que proporcionó las primeras imágenes detalladas de Saturno y sus lunas?", "answer": "Voyager 2", "options": ["Cassini", "Voyager 2", "Huygens", "Galileo"]},
-    {"id": 33, "question": "¿Cuál es el nombre del planeta conocido como el 'Planeta Rojo'?", "answer": "Marte", "options": ["Venus", "Júpiter", "Marte", "Mercurio"]},
-    {"id": 34, "question": "¿Cuál es el nombre de la región en el espacio entre las órbitas de Marte y Júpiter donde se encuentran muchos asteroides?", "answer": "Cinturón de asteroides", "options": ["Cinturón de Kuiper", "Nube de Oort", "Cinturón de asteroides", "Cinturones de Van Allen"]},
-    {"id": 35, "question": "¿Cuál es el nombre de la primera estación espacial, lanzada por la Unión Soviética en 1971?", "answer": "Salyut 1", "options": ["Mir", "Skylab", "Salyut 1", "Tiangong"]},
-    {"id": 36, "question": "¿Cuál es el nombre de la misión que aterrizó con éxito humanos en la Luna por primera vez?", "answer": "Apolo 11", "options": ["Géminis 4", "Mercurio 7", "Apolo 11", "Soyuz 11"]},
-    {"id": 37, "question": "¿Cuál es el nombre de la nave espacial lanzada por la Agencia Espacial Europea (ESA) para estudiar el cometa 67P/Churyumov–Gerasimenko?", "answer": "Rosetta", "options": ["Philae", "Cassini", "Rosetta", "Voyager 2"]},
-    {"id": 38, "question": "¿Cuál es el nombre de la luna más grande de Júpiter?", "answer": "Ganímedes", "options": ["Europa", "Titán", "Ganímedes", "Calisto"]},
-    {"id": 39, "question": "¿Cuál es el nombre de la nave espacial que orbitó por primera vez y estudió al planeta Mercurio?", "answer": "Mariner 10", "options": ["Voyager 1", "Messenger", "Mariner 10", "Galileo"]},
-    {"id": 40, "question": "¿Cuál es el nombre de la nave espacial lanzada por la NASA para estudiar al planeta Júpiter y sus lunas?", "answer": "Galileo", "options": ["Voyager 2", "Nuevos Horizontes", "Galileo", "Cassini"]},
-    {"id": 41, "question": "¿Cuál es el nombre del asteroide que se cree que causó la extinción de los dinosaurios?", "answer": "Chicxulub", "options": ["Apophis", "Chicxulub", "Bennu", "Vesta"]},
-    {"id": 42, "question": "¿Cuál es el nombre del fenómeno donde el brillo de una estrella aumenta temporalmente debido a una explosión catastrófica?", "answer": "Supernova", "options": ["Nebulosa", "Nova", "Supernova", "Púlsar"]},
-    {"id": 43, "question": "¿Cuál es el nombre de la nave espacial lanzada por la Unión Soviética en 1959, que hizo el primer sobrevuelo de la Luna?", "answer": "Luna 1", "options": ["Vostok 1", "Luna 1", "Sputnik 1", "Zond 5"]},
-    {"id": 44, "question": "¿Cuál es el nombre del efecto donde la luz u otra radiación electromagnética de un objeto aumenta su longitud de onda a medida que el objeto se aleja del observador?", "answer": "Corrimiento al rojo", "options": ["Corrimiento al azul", "Corrimiento al rojo", "Efecto Doppler", "Paralaje estelar"]},
-    {"id": 45, "question": "¿Cuál es el nombre de la nave espacial que aterrizó por primera vez humanos en la Luna?", "answer": "Apolo 11", "options": ["Géminis 4", "Mercurio 7", "Apolo 11", "Soyuz 11"]},
-    {"id": 46, "question": "¿Cuál es el nombre de la nave espacial lanzada por la NASA para estudiar al planeta enano Plutón y al Cinturón de Kuiper?", "answer": "Nuevos Horizontes", "options": ["Rosetta", "Voyager 2", "Nuevos Horizontes", "Cassini"]},
-    {"id": 47, "question": "¿Cuál es el nombre del proceso donde una estrella brilla al quemar hidrógeno en helio?", "answer": "Fusión nuclear", "options": ["Fisión nuclear", "Fusión nuclear", "Sublimación", "Condensación"]},
-    {"id": 48, "question": "¿Cuál es el nombre de la nube de cometas y cuerpos helados que rodea al sistema solar?", "answer": "Nube de Oort", "options": ["Cinturón de asteroides", "Cinturón de Kuiper", "Nube de Oort", "Disco disperso"]},
-    {"id": 49, "question": "¿Cuál es el nombre de la nave espacial que aterrizó por primera vez con éxito en Marte?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 50, "question": "¿Cuál es el nombre del fenómeno donde un planeta parece revertir su dirección habitual de movimiento a través del cielo?", "answer": "Movimiento retrógrado", "options": ["Paralaje", "Movimiento retrógrado", "Precesión", "Libración"]},
-    {"id": 51, "question": "¿Cuál es el nombre de la nave espacial que orbitó por primera vez y estudió el planeta Venus?", "answer": "Mariner 2", "options": ["Voyager 1", "Messenger", "Mariner 2", "Galileo"]},
-    {"id": 52, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en la luna de Saturno, Titán?", "answer": "Huygens", "options": ["Cassini", "Voyager 2", "Huygens", "Rosetta"]},
-    {"id": 53, "question": "¿Cuál es el nombre del sistema estelar más cercano al sistema solar?", "answer": "Alfa Centauri", "options": ["Sirio", "Alfa Centauri", "Próxima Centauri", "Estrella de Barnard"]},
-    {"id": 54, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Júpiter y sus lunas, particularmente Europa, en busca de signos de vida?", "answer": "Galileo", "options": ["Voyager 2", "Nuevos Horizontes", "Galileo", "Cassini"]},
-    {"id": 55, "question": "¿Cuál es el nombre de la nave espacial lanzada por la NASA para estudiar el planeta Saturno y sus lunas?", "answer": "Cassini", "options": ["Voyager 2", "Nuevos Horizontes", "Galileo", "Cassini"]},
-    {"id": 56, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer sobrevuelo exitoso de Plutón?", "answer": "Nuevos Horizontes", "options": ["Rosetta", "Voyager 2", "Nuevos Horizontes", "Cassini"]},
-    {"id": 57, "question": "¿Cuál es el nombre del punto en la órbita de un planeta donde está más lejos del Sol?", "answer": "Afelio", "options": ["Perihelio", "Afelio", "Eclíptica", "Equinoccio"]},
-    {"id": 58, "question": "¿Cuál es el nombre de la galaxia más cercana a la Vía Láctea?", "answer": "Andrómeda", "options": ["Triángulo", "Sombrero", "Andrómeda", "Nubes de Magallanes"]},
-    {"id": 59, "question": "¿Cuál es el nombre de la nave espacial lanzada por la Unión Soviética para estudiar Venus?", "answer": "Venera", "options": ["Vostok", "Soyuz", "Venera", "Luna"]},
-    {"id": 60, "question": "¿Cuál es el nombre del telescopio que fue lanzado al espacio en 1990 y ha proporcionado algunas de las imágenes más detalladas de galaxias distantes?", "answer": "Telescopio Espacial Hubble", "options": ["Telescopio Espacial James Webb", "Telescopio Espacial Spitzer", "Observatorio de rayos X Chandra", "Telescopio Espacial Hubble"]},
-    {"id": 61, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 62, "question": "¿Cuál es el nombre de la nave espacial que orbitó y estudió al asteroide Vesta y al planeta enano Ceres?", "answer": "Dawn", "options": ["Rosetta", "Voyager 2", "Dawn", "Cassini"]},
-    {"id": 63, "question": "¿Cuál es el nombre de la región en el sistema solar más allá de la órbita de Neptuno, donde se originan muchos cometas?", "answer": "Cinturón de Kuiper", "options": ["Cinturón de asteroides", "Nube de Oort", "Cinturón de Kuiper", "Disco disperso"]},
-    {"id": 64, "question": "¿Cuál es el nombre de la nave espacial que proporcionó las primeras imágenes detalladas de Plutón y sus lunas?", "answer": "Nuevos Horizontes", "options": ["Rosetta", "Voyager 2", "Nuevos Horizontes", "Cassini"]},
-    {"id": 65, "question": "¿Cuál es el nombre del fenómeno donde una estrella explota en una ráfaga masiva de luz y energía?", "answer": "Supernova", "options": ["Nebulosa", "Nova", "Supernova", "Púlsar"]},
-    {"id": 66, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje suave exitoso en la Luna?", "answer": "Luna 9", "options": ["Apolo 11", "Venera 7", "Luna 9", "Ranger 7"]},
-    {"id": 67, "question": "¿Cuál es el nombre del fenómeno donde un planeta pasa entre su estrella progenitora y el observador, reduciendo el brillo aparente de la estrella?", "answer": "Tránsito", "options": ["Eclipse", "Ocultación", "Tránsito", "Conjunción"]},
-    {"id": 68, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Venus?", "answer": "Venera 7", "options": ["Mariner 10", "Venera 7", "Viking 1", "Magallanes"]},
-    {"id": 69, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer sobrevuelo exitoso de Júpiter y Saturno?", "answer": "Pioneer 11", "options": ["Voyager 1", "Pioneer 11", "Nuevos Horizontes", "Cassini"]},
-    {"id": 70, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 71, "question": "¿Cuál es el nombre de la luna más grande de Neptuno?", "answer": "Tritón", "options": ["Caronte", "Tritón", "Nereida", "Proteo"]},
-    {"id": 72, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 73, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 74, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 75, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 76, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso de humanos en la Luna?", "answer": "Apolo 11", "options": ["Géminis 4", "Mercurio 7", "Apolo 11", "Soyuz 11"]},
-    {"id": 77, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 78, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 79, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 80, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 81, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 82, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 83, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 84, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 85, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 86, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 87, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 88, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 89, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 90, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 91, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 92, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 93, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 94, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 95, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 96, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 97, "question": "¿Cuál es el nombre de la nave espacial que estudió al planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 98, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 99, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 100, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 101, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 102, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 103, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 104, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 105, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 106, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 107, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 108, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 109, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 110, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 111, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 112, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 113, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 114, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 115, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 116, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 117, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 118, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 119, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 120, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 121, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 122, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 123, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 124, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 125, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 126, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 127, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 128, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 129, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 130, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 131, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 132, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 133, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 134, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 135, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 136, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 137, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 138, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 139, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 140, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 141, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 142, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 143, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 144, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 145, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 146, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 147, "question": "¿Cuál es el nombre de la nave espacial que aterrizó con éxito en un cometa en 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 148, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en un asteroide?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 149, "question": "¿Cuál es el nombre de la nave espacial que estudió el planeta Mercurio?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 150, "question": "¿Cuál es el nombre de la nave espacial que realizó el primer aterrizaje exitoso en Marte?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]}
+  {
+    "id": 1,
+    "question": "¿Cómo se llama el nuevo lenguaje de programación presentado por Google?",
+    "answer": "Carbon",
+    "options": ["Swift", "Kotlin", "Carbon", "TypeScript"]
+  },
+  {
+    "id": 2,
+    "question": "¿Qué empresa desarrolló el primer navegador web gráfico?",
+    "answer": "Netscape",
+    "options": ["Microsoft", "Apple", "Netscape", "Google"]
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se llama el primer chip de silicio personalizado de Apple para sus ordenadores?",
+    "answer": "M1",
+    "options": ["A12", "M1", "Snapdragon", "Ryzen"]
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la última versión del estándar USB publicada?",
+    "answer": "USB4",
+    "options": ["USB-C", "USB 3.1", "USB4", "USB 5.0"]
+  },
+  {
+    "id": 5,
+    "question": "¿Qué empresa tecnológica es conocida por desarrollar TensorFlow?",
+    "answer": "Google",
+    "options": ["Apple", "Amazon", "Google", "Microsoft"]
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es el término para un ataque de red que interrumpe el servicio al sobrecargar al objetivo?",
+    "answer": "Ataque DDoS",
+    "options": ["Phishing", "Ataque DDoS", "Inyección SQL", "XSS"]
+  },
+  {
+    "id": 7,
+    "question": "¿Qué significa el acrónimo 'HTTP'?",
+    "answer": "Protocolo de transferencia de hipertexto",
+    "options": [
+      "Protocolo de transferencia de hipertexto",
+      "Proceso de texto de hipervínculo",
+      "Protocolo de texto de hipervínculo",
+      "Hipertexto Procesador"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Qué empresa es la desarrolladora principal del sistema operativo Windows?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Google", "Microsoft", "IBM"]
+  },
+  {
+    "id": 9,
+    "question": "¿Qué lenguaje de programación se utiliza principalmente para desarrollar aplicaciones iOS?",
+    "answer": "Swift",
+    "options": ["Java", "Swift", "C#", "JavaScript"]
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es el nombre de la plataforma en línea para alojar y compartir código desarrollado por Microsoft?",
+    "answer": "GitHub",
+    "options": ["GitLab", "SourceForge", "GitHub", "Bitbucket"]
+  },
+  {
+    "id": 11,
+    "question": "¿Qué significa el acrónimo 'RAM'?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Run Active Memory",
+      "Rapid Access Module"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "¿Qué empresa lanzó el primer teléfono inteligente disponible comercialmente?",
+    "answer": "IBM",
+    "options": ["Apple", "Samsung", "IBM", "Motorola"]
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál es el nombre del sistema operativo basado en Linux y utilizado principalmente en dispositivos Android?",
+    "answer": "Android OS",
+    "options": ["iOS", "Windows", "Android OS", "Tizen"]
+  },
+  {
+    "id": 14,
+    "question": "¿Qué empresa desarrolló el asistente virtual conocido como Alexa?",
+    "answer": "Amazon",
+    "options": ["Apple", "Google", "Amazon", "Microsoft"]
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál es el lenguaje principal que se utiliza para diseñar páginas web?",
+    "answer": "CSS",
+    "options": ["JavaScript", "HTML", "CSS", "PHP"]
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se llama el sistema global de navegación por satélite desarrollado por los Estados Unidos?",
+    "answer": "GPS",
+    "options": ["GLONASS", "GPS", "Galileo", "BeiDou"]
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se llama el sistema operativo de Google para dispositivos domésticos inteligentes y wearables?",
+    "answer": "Wear OS",
+    "options": ["Tizen", "Wear OS", "HarmonyOS", "iOS"]
+  },
+  {
+    "id": 18,
+    "question": "¿Qué empresa desarrolló el primer sistema operativo gráfico? interfaz?",
+    "answer": "Apple",
+    "options": ["IBM", "Microsoft", "Apple", "Xerox"]
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es el nombre del lenguaje más utilizado para el aprendizaje automático?",
+    "answer": "Python",
+    "options": ["R", "Python", "Java", "Scala"]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué significa 'IoT'?",
+    "answer": "Internet de las cosas",
+    "options": [
+      "Internet de las tareas",
+      "Internet de las cosas",
+      "Interconexión de la tecnología",
+      "Internet de la tecnología"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿En qué año se lanzó el primer iPhone?",
+    "answer": "2007",
+    "options": ["2005", "2006", "2007", "2008"]
+  },
+  {
+    "id": 22,
+    "question": "¿Quién es considerado el cofundador de Apple junto con Steve Jobs?",
+    "answer": "Steve Wozniak",
+    "options": ["Bill Gates", "Larry Page", "Steve Wozniak", "Elon Musk"]
+  },
+  {
+    "id": 23,
+    "question": "¿Qué significa 'RAM'?",
+    "answer": "Memoria de acceso aleatorio",
+    "options": [
+      "Memoria de acceso de lectura",
+      "Memoria de acceso aleatorio",
+      "Memoria de acceso remoto",
+      "Memoria de acceso rápido"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "¿Cuál es la función principal de una GPU?",
+    "answer": "Renderizar gráficos",
+    "options": [
+      "Almacenar datos",
+      "Renderizar gráficos",
+      "Procesar audio",
+      "Manejar red solicitudes"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Cuál¿Qué empresa desarrolló el sistema operativo Windows?",
+    "answer": "Microsoft",
+    "options": ["Apple", "IBM", "Microsoft", "Google"]
+  },
+  {
+    "id": 26,
+    "question": "¿Qué lenguaje de programación se utiliza a menudo para la IA y el aprendizaje automático?",
+    "answer": "Python",
+    "options": ["Java", "Python", "C#", "Ruby"]
+  },
+  {
+    "id": 27,
+    "question": "¿En qué año se presentó la World Wide Web al público?",
+    "answer": "1991",
+    "options": ["1989", "1991", "1993", "1995"]
+  },
+  {
+    "id": 28,
+    "question": "¿Cuál es el nombre de la empresa matriz de Google?",
+    "answer": "Alphabet",
+    "options": ["Google LLC", "Alphabet", "Meta", "Microsoft"]
+  },
+  {
+    "id": 29,
+    "question": "¿En qué tecnología se basan principalmente las criptomonedas?",
+    "answer": "Blockchain",
+    "options": [
+      "Computación cuántica",
+      "Blockchain",
+      "Aprendizaje automático",
+      "Realidad virtual"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Qué dispositivo se utiliza habitualmente para introducir texto escrito a mano en un ordenador?",
+    "answer": "Tableta gráfica",
+    "options": ["Pantalla táctil", "Ratón", "Tableta gráfica", "Panel táctil"]
+  },
+  {
+    "id": 31,
+    "question": "¿Quién inventó la World Wide Web?",
+    "answer": "Tim Berners-Lee",
+    "options": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Mark Zuckerberg"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Qué significa 'HTTP'?",
+    "answer": "Protocolo de transferencia de hipertexto",
+    "options": [
+      "Protocolo de transmisión de hipertexto",
+      "Protocolo de transferencia de hipertexto",
+      "Protocolo de hipertransferencia de texto",
+      "Protocolo de hipertransporte de texto"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué empresa desarrolló originalmente el lenguaje de programación Java?",
+    "answer": "Sun Microsystems",
+    "options": ["Microsoft", "IBM", "Oracle", "Sun Microsystems"]
+  },
+  {
+    "id": 34,
+    "question": "¿Qué lenguaje de programación se utiliza principalmente para desarrollar aplicaciones iOS?",
+    "answer": "Swift",
+    "options": ["Python", "Swift", "Java", "Kotlin"]
+  },
+  {
+    "id": 35,
+    "question": "¿Qué es el ¿Cuál es la función principal de un SSD?",
+    "answer": "Almacenamiento",
+    "options": [
+      "Memoria",
+      "Procesamiento",
+      "Almacenamiento",
+      "Administración de energía"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es la empresa que desarrolla Android?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Samsung", "Google"]
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es el nombre del servicio de almacenamiento en la nube de Apple?",
+    "answer": "iCloud",
+    "options": ["Google Drive", "OneDrive", "iCloud", "Dropbox"]
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál de estos es un framework de JavaScript?",
+    "answer": "React",
+    "options": ["Flask", "Django", "Ruby on Rails", "React"]
+  },
+  {
+    "id": 39,
+    "question": "¿Qué significa 'IoT'?",
+    "answer": "Internet de las cosas",
+    "options": [
+      "Internet de la tecnología",
+      "Internet de las cosas",
+      "Interconexión de las cosas",
+      "Tecnología operativa integrada"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Qué protocolo se utiliza habitualmente para proteger las transacciones en línea?",
+    "answer": "HTTPS",
+    "options": ["FTP", "HTTP", "SMTP", "HTTPS"]
+  },
+  {
+    "id": 41,
+    "question": "¿Qué significa 'CSS'?",
+    "answer": "Hojas de estilo en cascada",
+    "options": [
+      "Sintaxis de estilo de computadora",
+      "Sintaxis de estilo en cascada",
+      "Hojas de estilo en cascada",
+      "Hojas de estilo de código"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "¿Qué empresa es dueña de LinkedIn?",
+    "answer": "Microsoft",
+    "options": ["Facebook", "Google", "Microsoft", "Twitter"]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué concepto informático se utiliza para proteger las comunicaciones en las VPN?",
+    "answer": "Cifrado",
+    "options": [
+      "Autenticación",
+      "Análisis de datos",
+      "Cifrado",
+      "Segmentación de red"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué significa el acrónimo 'LAN'?",
+    "answer": "Red de área local",
+    "options": [
+      "Red de área larga",
+      "Red de área local",
+      "Red de área grande",
+      "Red de acceso vinculado"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Qué tipo de software es Linux?",
+    "answer": "Sistema operativo",
+    "options": [
+      "Procesador de textos",
+      "Navegador web",
+      "Sistema operativo",
+      "Programa de hoja de cálculo"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es el propósito de CAPTCHA?",
+    "answer": "Para verificar usuarios humanos",
+    "options": [
+      "Para cifrar datos",
+      "Para verificar usuarios humanos",
+      "Para monitorear el tráfico",
+      "Para comprimir imágenes"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Qué lenguaje se utiliza principalmente para la estructura de páginas web?",
+    "answer": "HTML",
+    "options": ["HTML", "CSS", "JavaScript", "Python"]
+  },
+  {
+    "id": 48,
+    "question": "¿Qué empresa desarrolló el sistema operativo Android?",
+    "answer": "Google",
+    "options": ["Apple", "Google", "Microsoft", "Nokia"]
+  },
+  {
+    "id": 49,
+    "question": "¿Cuál es el propósito principale de una dirección IP?",
+    "answer": "Para identificar dispositivos en una red",
+    "options": [
+      "Para almacenar archivos",
+      "Para medir la velocidad de Internet",
+      "Para identificar dispositivos en una red",
+      "Para conectarse a WiFi"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Para qué se usa Git habitualmente?",
+    "answer": "Control de versiones",
+    "options": [
+      "Cifrado",
+      "Gestión de bases de datos",
+      "Control de versiones",
+      "Redes"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Qué significa VPN?",
+    "answer": "Red privada virtual",
+    "options": [
+      "Red virtual protegida",
+      "Red privada verificada",
+      "Red personal virtual",
+      "Red privada virtual"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Qué dispositivo permite la comunicación inalámbrica entre computadoras?",
+    "answer": "Wi-Fi adaptador",
+    "options": ["Enrutador", "Adaptador Wi-Fi", "Módem", "Disco duro"]
+  },
+  {
+    "id": 53,
+    "question": "¿De qué se compone un byte?",
+    "answer": "8 bits",
+    "options": ["4 bits", "8 bits", "16 bits", "32 bits"]
+  },
+  {
+    "id": 54,
+    "question": "¿Qué empresa creó el primer microprocesador?",
+    "answer": "Intel",
+    "options": ["AMD", "Apple", "Intel", "IBM"]
+  },
+  {
+    "id": 55,
+    "question": "¿Qué lenguaje se utiliza principalmente para el análisis de datos?",
+    "answer": "Python",
+    "options": ["JavaScript", "Java", "Python", "PHP"]
+  },
+  {
+    "id": 56,
+    "question": "¿Cómo se llama el ¿La plataforma de nube de Amazon?",
+    "answer": "AWS (Amazon Web Services)",
+    "options": ["Azure", "GCP", "AWS", "IBM Cloud"]
+  },
+  {
+    "id": 57,
+    "question": "¿Qué se usa comúnmente para enfriar la CPU de una computadora?",
+    "answer": "Disipador de calor",
+    "options": [
+      "Fuente de alimentación",
+      "Disipador de calor",
+      "Placa base",
+      "Disco duro"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Cuál es el propósito de un algoritmo?",
+    "answer": "Resolver un problema",
+    "options": [
+      "Diseñar una base de datos",
+      "Resolver un problema",
+      "Formatear texto",
+      "Monitorear el tráfico de red"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué tipo de memoria es volátil?",
+    "answer": "RAM",
+    "options": ["Disco duro", "RAM", "SSD", "ROM"]
+  },
+  {
+    "id": 60,
+    "question": "¿Qué prueba el comando 'ping'?",
+    "answer": "Conectividad de red",
+    "options": [
+      "Duración de la batería",
+      "Estado del sistema",
+      "Conectividad de red",
+      "Velocidad de la CPU"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Cuál es el término para crear una copia de datos para evitar pérdidas?",
+    "answer": "Copia de seguridad",
+    "options": ["Clonación", "Cifrado", "Copia de seguridad", "Recuperación"]
+  },
+  {
+    "id": 62,
+    "question": "¿Qué significa HDMI?",
+    "answer": "Interfaz multimedia de alta definición",
+    "options": [
+      "Interfaz de gestión de datos de alta definición",
+      "Interfaz multimedia de alta definición",
+      "Interfaz de medios de disco duro",
+      "Entrada multimedia de alta cantidad de datos"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "¿Qué tipo de dispositivo es un enrutador?",
+    "answer": "Dispositivo de red",
+    "options": [
+      "Dispositivo de almacenamiento",
+      "Dispositivo de entrada",
+      "Dispositivo de salida",
+      "Dispositivo de red"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "¿Qué símbolo se usa para los comentarios en Python?",
+    "answer": "#",
+    "options": ["#", "//", "/*", "%"]
+  },
+  {
+    "id": 65,
+    "question": "¿Cuál es un tipo común de malware?",
+    "answer": "Virus",
+    "options": ["Parche de software", "Firewall", "Virus", "Sistema operativo"]
+  },
+  {
+    "id": 66,
+    "question": "¿Qué significa 'SSD'?",
+    "answer": "Unidad de estado sólido",
+    "options": [
+      "Dispositivo de almacenamiento estático",
+      "Disco de almacenamiento sólido",
+      "Estado sólido Unidad",
+      "Unidad de almacenamiento segura"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "¿Quién es conocido por cofundar Microsoft?",
+    "answer": "Bill Gates",
+    "options": ["Larry Page", "Steve Wozniak", "Bill Gates", "Mark Zuckerberg"]
+  },
+  {
+    "id": 68,
+    "question": "¿Qué tipo de red conecta computadoras dentro de un área pequeña, como una oficina?",
+    "answer": "LAN",
+    "options": ["WAN", "MAN", "LAN", "PAN"]
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es el propósito principal de una API?",
+    "answer": "Permitir que las aplicaciones interactúen",
+    "options": [
+      "Almacenar datos",
+      "Procesar datos",
+      "Permitir que las aplicaciones interactúen",
+      "Asegurar redes"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "¿Qué dispositivo se utiliza para capturar imágenes?",
+    "answer": "Cámara",
+    "options": ["Micrófono", "Escáner", "Impresora", "Cámara"]
+  },
+  {
+    "id": 71,
+    "question": "¿Qué sitio web es conocido por la transmisión de videos?",
+    "answer": "YouTube",
+    "options": ["Twitter", "Instagram", "YouTube", "Google"]
+  },
+  {
+    "id": 72,
+    "question": "¿Qué lenguaje de programación se utiliza para el análisis estadístico?",
+    "answer": "R",
+    "options": ["Java", "C#", "Python", "R"]
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál es el principal lenguaje de programación utilizado para iOS?",
+    "answer": "Swift",
+    "options": ["Python", "Java", "Objective-C", "Swift"]
+  },
+  {
+    "id": 74,
+    "question": "¿En qué año se lanzó la primera versión de Windows?",
+    "answer": "1985",
+    "options": ["1985", "1990", "1995", "2000"]
+  },
+  {
+    "id": 75,
+    "question": "¿Qué significa SMTP?",
+    "answer": "Protocolo simple de transferencia de correo",
+    "options": [
+      "Protocolo seguro de transferencia de correo",
+      "Protocolo estándar de texto de correo",
+      "Protocolo simple de transferencia de correo",
+      "Protocolo estándar de transferencia de mensajes"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Qué empresa desarrolló el asistente personal 'Siri'?",
+    "answer": "Apple",
+    "options": ["Google", "Microsoft", "Amazon", "Apple"]
+  },
+  {
+    "id": 77,
+    "question": "¿Cuál es el nombre del servicio en la nube de Microsoft?",
+    "answer": "Azure",
+    "options": ["AWS", "GCP", "OneDrive", "Azure"]
+  },
+  {
+    "id": 78,
+    "question": "¿Qué motor de búsqueda fue fundado por Sergey Brin y Larry Page?",
+    "answer": "Google",
+    "options": ["Bing", "Yahoo", "Google", "DuckDuckGo"]
+  },
+  {
+    "id": 79,
+    "question": "¿Qué significa ASCII?",
+    "answer": "Código estándar americano para el intercambio de información",
+    "options": [
+      "Código del sistema americano para la información internacional",
+      "Código estándar americano para el intercambio de información",
+      "Índice avanzado de información de codificación del sistema",
+      "Código del sistema americano para la información interactiva"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Qué es un terabyte?",
+    "answer": "Una unidad de medida de la información digital. almacenamiento",
+    "options": [
+      "Un lenguaje de programación",
+      "Una unidad de potencia de procesamiento",
+      "Una unidad de almacenamiento digital",
+      "Un tipo de red"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "¿Qué empresa desarrolló el popular juego 'Minecraft'?",
+    "answer": "Mojang",
+    "options": ["Epic Games", "Mojang", "Valve", "Blizzard"]
+  },
+  {
+    "id": 82,
+    "question": "¿Cuál es el término para un error de software que afecta la seguridad?",
+    "answer": "Vulnerabilidad",
+    "options": ["Fallo", "Error", "Vulnerabilidad", "Retraso"]
+  },
+  {
+    "id": 83,
+    "question": "¿Cuál es el propósito de un firewall?",
+    "answer": "Para proteger una red de accesos no autorizados",
+    "options": [
+      "Para mejorar la velocidad de Internet",
+      "Para almacenar datos",
+      "Para proteger una red de accesos no autorizados",
+      "Para administrar contraseñas"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "¿Qué lenguaje se usa a menudo para la programación del sistema?",
+    "answer": "C",
+    "options": ["HTML", "C", "JavaScript", "SQL"]
+  },
+  {
+    "id": 85,
+    "question": "¿Qué significa el acrónimo USB?",
+    "answer": "Bus serie universal",
+    "options": [
+      "Bus universal del sistema",
+      "Bus universal de almacenamiento",
+      "Bus serie universal",
+      "Bloque de sistema unificado"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "¿Cuál es el nombre del lenguaje que se usa principalmente para diseñar páginas web?",
+    "answer": "CSS",
+    "options": ["HTML", "CSS", "JavaScript", "PHP"]
+  },
+  {
+    "id": 87,
+    "question": "¿Qué lenguaje de base de datos se utiliza para gestionar bases de datos relacionales?",
+    "answer": "SQL",
+    "options": ["HTML", "Python", "Java", "SQL"]
+  },
+  {
+    "id": 88,
+    "question": "¿Qué significa 'URL'?",
+    "answer": "Localizador uniforme de recursos",
+    "options": [
+      "Localizador uniforme de recursos",
+      "Enlace de recurso universal",
+      "Enlace de referencia único",
+      "Localizador de recuperación universal"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "¿Qué dispositivo se utiliza habitualmente para el almacenamiento de datos?",
+    "answer": "Disco duro",
+    "options": ["CPU", "Disco duro", "Placa base", "Tarjeta gráfica"]
+  },
+  {
+    "id": 90,
+    "question": "¿Qué tipo de malware se disfraza de software legítimo?",
+    "answer": "Troyano",
+    "options": ["Virus", "Troyano", "Gusano", "Ransomware"]
+  },
+  {
+    "id": 91,
+    "question": "¿Qué lenguaje de programación está diseñado específicamente para la creación de scripts web?",
+    "answer": "JavaScript",
+    "options": ["C++", "Python", "JavaScript", "Ruby"]
+  },
+  {
+    "id": 92,
+    "question": "¿Cuál es el propósito de una CPU en una computadora?",
+    "answer": "Procesar instrucciones",
+    "options": [
+      "Almacenar datos",
+      "Procesar instrucciones",
+      "Administrar el tráfico de red",
+      "Mostrar imágenes"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "¿Qué se usa comúnmente para almacenar datos a largo plazo en las computadoras?",
+    "answer": "Disco duro",
+    "options": ["RAM", "CPU", "Disco duro", "GPU"]
+  },
+  {
+    "id": 94,
+    "question": "¿Qué empresa desarrolló el Navegador Chrome?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Mozilla", "Google"]
+  },
+  {
+    "id": 95,
+    "question": "¿Qué significa SSL?",
+    "answer": "Capa de sockets seguros",
+    "options": [
+      "Capa de sistemas seguros",
+      "Capa de sockets seguros",
+      "Bloqueo de seguridad del sistema",
+      "Capa segura estándar"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "¿Qué tipo de memoria se utiliza para el BIOS en una computadora?",
+    "answer": "ROM",
+    "options": ["RAM", "ROM", "SSD", "Disco duro"]
+  },
+  {
+    "id": 97,
+    "question": "¿Qué es 'phishing'?",
+    "answer": "Un tipo de estafa en línea",
+    "options": [
+      "Una forma de almacenamiento de datos",
+      "Un protocolo de red",
+      "Un tipo de estafa en línea",
+      "Un lenguaje de programación"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "¿Qué empresa es conocida por crear la consola de videojuegos 'PlayStation'?",
+    "answer": "Sony",
+    "options": ["Microsoft", "Nintendo", "Sony", "Sega"]
+  },
+  {
+    "id": 99,
+    "question": "¿Qué significa GPU?",
+    "answer": "Unidad de procesamiento gráfico",
+    "options": [
+      "Unidad de procesamiento general",
+      "Unidad de procesamiento gráfico",
+      "Unidad de procesamiento global",
+      "Unidad de procesamiento de gigabytes"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "¿Qué lenguaje de programación es conocido por su ¿Simplicidad y legibilidad?",
+    "answer": "Python",
+    "options": ["Java", "Python", "C++", "Perl"]
+  },
+  {
+    "id": 101,
+    "question": "¿Qué significa IoT?",
+    "answer": "Internet de las cosas",
+    "options": [
+      "Internet de las herramientas",
+      "Internet de las cosas",
+      "Innovación tecnológica",
+      "Instancia de la tecnología"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "¿Cuál es el propósito de una API?",
+    "answer": "Permitir que diferentes programas se comuniquen",
+    "options": [
+      "Aumentar la potencia de procesamiento",
+      "Almacenar datos",
+      "Mejorar los gráficos",
+      "Permitir que diferentes programas se comuniquen"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "¿Qué empresa desarrolló el sistema operativo Android?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Google", "IBM"]
+  },
+  {
+    "id": 104,
+    "question": "¿Qué término describe el acceso no autorizado a una red?",
+    "answer": "Hacking",
+    "options": ["Cracking", "Hacking", "Breach", "Spoofing"]
+  },
+  {
+    "id": 105,
+    "question": "¿Cuál de estos es un sistema de gestión de contenido popular?",
+    "answer": "WordPress",
+    "options": ["WordPress", "Excel", "Oracle", "Photoshop"]
+  },
+  {
+    "id": 106,
+    "question": "¿Qué tecnología se utiliza para crear realidad virtual?",
+    "answer": "Gafas de realidad virtual",
+    "options": [
+      "Teléfonos inteligentes",
+      "Gafas de realidad virtual",
+      "Escritorios",
+      "Televisores inteligentes"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "What is the purpose of cookies on websites?",
+    "answer": "Para almacenar datos de usuario",
+    "options": [
+      "Para aumentar la velocidad",
+      "Para mejorar el diseño",
+      "Para almacenar datos de usuario",
+      "Para aumentar el almacenamiento"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "¿Qué protocolo se utiliza para enviar correo electrónico?",
+    "answer": "SMTP",
+    "options": ["FTP", "SMTP", "HTTP", "IMAP"]
+  },
+  {
+    "id": 109,
+    "question": "¿Qué lenguaje de programación se utiliza a menudo para la IA?",
+    "answer": "Python",
+    "options": ["Java", "Ruby", "Python", "HTML"]
+  },
+  {
+    "id": 110,
+    "question": "¿Cuál es el propósito del DNS?",
+    "answer": "Para traducir nombres de dominio a direcciones IP",
+    "options": [
+      "Para traducir nombres de dominio a direcciones IP",
+      "Para crear cortafuegos",
+      "Para cifrar datos",
+      "Para administrar el almacenamiento de datos"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "¿Qué plataforma de redes sociales fundó Mark Zuckerberg?",
+    "answer": "Facebook",
+    "options": ["Twitter", "LinkedIn", "Instagram", "Facebook"]
+  },
+  {
+    "id": 112,
+    "question": "¿Qué significa la 'S' en HTTPS?",
+    "answer": "Seguro",
+    "options": ["Servidor", "Seguro", "Sesión", "Estándar"]
+  },
+  {
+    "id": 113,
+    "question": "¿Cuál es el término para los datos que describen otros datos?",
+    "answer": "Metadatos",
+    "options": ["Caché", "Metadatos", "Cookies", "Caché"]
+  },
+  {
+    "id": 114,
+    "question": "¿Cuál es el principal función de la RAM?",
+    "answer": "Para almacenar datos temporalmente",
+    "options": [
+      "Para almacenar datos permanentemente",
+      "Para mostrar gráficos",
+      "Para almacenar datos temporalmente",
+      "Para procesar código"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "¿Cuál de estos es un estándar común de comunicación inalámbrica?",
+    "answer": "Bluetooth",
+    "options": ["Fibra óptica", "USB", "Ethernet", "Bluetooth"]
+  },
+  {
+    "id": 116,
+    "question": "¿Qué significa la 'C' en CPU?",
+    "answer": "Central",
+    "options": ["Central", "Core", "Control", "Compute"]
+  },
+  {
+    "id": 117,
+    "question": "¿Cuál de estos es un proveedor de almacenamiento en la nube?",
+    "answer": "Dropbox",
+    "options": ["Microsoft Word", "Adobe", "Dropbox", "Linux"]
+  },
+  {
+    "id": 118,
+    "question": "¿Qué comando se utiliza para copiar archivos en Linux?",
+    "answer": "cp",
+    "options": ["copy", "cp", "mv", "rm"]
+  },
+  {
+    "id": 119,
+    "question": "¿Cuál es el propósito de una VPN?",
+    "answer": "Para proporcionar acceso seguro a una red privada",
+    "options": [
+      "Para aumentar la velocidad de descarga",
+      "Para proporcionar acceso seguro a una red privada",
+      "Para supervisar el rendimiento del sistema",
+      "Para gestionar el almacenamiento"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "¿Qué dispositivo se utiliza para conectarse a Internet?",
+    "answer": "Módem",
+    "options": ["Monitor", "Módem", "Ratón", "Teclado"]
+  },
+  {
+    "id": 121,
+    "question": "¿Qué significa 'PHP'?",
+    "answer": "Preprocesador de hipertexto",
+    "options": [
+      "Procesador de hipertexto previo",
+      "Procesamiento de hipertexto por protocolo",
+      "Preprocesador de hipertexto",
+      "Procesador de hipertexto personal"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "¿Qué es 'malware'?",
+    "answer": "Software malicioso",
+    "options": [
+      "Software malicioso",
+      "Un tipo de hardware",
+      "Un lenguaje de codificación",
+      "Una herramienta de red"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "¿Qué sistema operativo es de código abierto?",
+    "answer": "Linux",
+    "options": ["macOS", "Windows", "Linux", "iOS"]
+  },
+  {
+    "id": 124,
+    "question": "¿Qué significa 'PDF'?",
+    "answer": "Formato de documento portátil",
+    "options": [
+      "Formato de documento portátil",
+      "Archivo de datos públicos",
+      "Formato de datos de página",
+      "Formato de diseño de impresión"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "¿Qué significa HTML?",
+    "answer": "Lenguaje de marcado de hipertexto",
+    "Options": [
+      "Lenguaje de marcado de hipervínculo",
+      "Lenguaje de marcado de hipertexto",
+      "Lenguaje de máquina de hipertexto",
+      "Lenguaje de máquina de hipervínculo"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "¿Cuál es la función principal de un enrutador?",
+    "answer": "Enrutar datos entre redes",
+    "options": [
+      "Aumentar la velocidad",
+      "Monitorear el rendimiento",
+      "Almacenar datos",
+      "Enrutar datos entre redes"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "¿Qué empresa creó la consola de juegos Xbox?",
+    "answer": "Microsoft",
+    "options": ["Sony", "Nintendo", "Microsoft", "Sega"]
+  },
+  {
+    "id": 128,
+    "question": "¿Cuál de estos es un sistema operativo común para teléfonos inteligentes?",
+    "answer": "Android",
+    "options": ["Windows", "Linux", "macOS", "Android"]
+  },
+  {
+    "id": 129,
+    "question": "¿Qué es la computación en la nube?",
+    "answer": "Almacenamiento y acceso a datos a través de Internet",
+    "options": [
+      "Un tipo de base de datos",
+      "Un lenguaje de programación",
+      "Almacenamiento y acceso a datos a través de Internet",
+      "Un tipo de hardware"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "¿Qué lenguaje se usa comúnmente para el desarrollo web backend?",
+    "answer": "PHP",
+    "options": ["HTML", "CSS", "JavaScript", "PHP"]
+  },
+  {
+    "id": 131,
+    "question": "¿Cuál es el propósito de un navegador web?",
+    "answer": "Para acceder y visualizar sitios web",
+    "options": [
+      "Para editar fotos",
+      "Para acceder y visualizar sitios web",
+      "Para administrar el almacenamiento de datos",
+      "Para escribir código"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "¿Qué tecnología se utiliza para los pagos móviles?",
+    "answer": "NFC",
+    "options": ["VPN", "DNS", "NFC", "Wi-Fi"]
+  },
+  {
+    "id": 133,
+    "question": "¿Qué significa RAM?",
+    "answer": "Memoria de acceso aleatorio",
+    "options": [
+      "Memoria de acceso de lectura",
+      "Memoria de acceso aleatorio",
+      "Memoria de acceso confiable",
+      "Memoria de acceso de registro"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "¿Qué ¿Qué empresa es conocida por el iPhone?",
+    "answer": "Apple",
+    "options": ["Samsung", "Apple", "Google", "Microsoft"]
+  },
+  {
+    "id": 135,
+    "question": "¿Qué lenguaje se usa ampliamente para el desarrollo frontend?",
+    "answer": "JavaScript",
+    "options": ["Python", "C++", "JavaScript", "PHP"]
+  },
+  {
+    "id": 136,
+    "question": "¿Para qué se usa SSL?",
+    "answer": "Cifrar datos en sitios web",
+    "options": [
+      "Cifrar datos en sitios web",
+      "Aumentar la velocidad del sitio web",
+      "Crear diseños de sitios web",
+      "Almacenar datos"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "¿Cuál de estas es una plataforma de redes sociales popular?",
+    "answer": "Twitter",
+    "options": ["Twitter", "Netflix", "Spotify", "Zoom"]
+  },
+  {
+    "id": 138,
+    "question": "¿Qué significa la 'B' en 'BIOS'?",
+    "answer": "Básico",
+    "options": ["Básico", "Binario", "Búfer", "Bus"]
+  },
+  {
+    "id": 139,
+    "question": "¿Qué tipo de aplicación se ejecuta en un navegador web?",
+    "answer": "Aplicación web",
+    "options": [
+      "Aplicación de escritorio",
+      "Aplicación móvil",
+      "Aplicación web",
+      "Aplicación de servidor"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "¿Qué componente procesa imágenes en una computadora?",
+    "answer": "GPU",
+    "options": ["CPU", "GPU", "RAM", "SSD"]
+  },
+  {
+    "id": 141,
+    "question": "¿Qué es 'spam'?",
+    "answer": "Mensajes no deseados o no solicitados",
+    "options": [
+      "Un lenguaje de codificación",
+      "Un componente de hardware",
+      "Mensajes no deseados o no solicitados",
+      "Una herramienta de red"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "¿Cuál es el término para guardar archivos en un servidor remoto?",
+    "answer": "Almacenamiento en la nube",
+    "options": [
+      "Almacenamiento en la nube",
+      "Minería de datos",
+      "Agrupamiento de servidores",
+      "Almacenamiento en caché de datos"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "¿Qué dispositivo se utiliza para ingresar datos?",
+    "answer": "Teclado",
+    "options": ["Monitor", "Teclado", "Impresora", "Altavoz"]
+  },
+  {
+    "id": 144,
+    "question": "¿Qué¿Para qué se utiliza SQL?",
+    "answer": "Administrar bases de datos",
+    "options": [
+      "Crear sitios web",
+      "Administrar bases de datos",
+      "Diseñar gráficos",
+      "Encriptar archivos"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "¿Qué empresa desarrolló el sistema operativo Mac?",
+    "answer": "Apple",
+    "options": ["Apple", "Microsoft", "IBM", "Oracle"]
+  },
+  {
+    "id": 146,
+    "question": "¿Qué significa CPU?",
+    "answer": "Unidad central de procesamiento",
+    "options": [
+      "Unidad central de programación",
+      "Unidad de procesamiento de la computadora",
+      "Unidad central de procesamiento",
+      "Unidad de procesamiento de control"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "¿Cuál es el lenguaje principal que se utiliza para crear aplicaciones iOS?",
+    "answer": "Swift",
+    "options": ["Swift", "Java", "Python", "Ruby"]
+  },
+  {
+    "id": 148,
+    "question": "¿Qué protocolo se utiliza para la navegación segura en Internet?",
+    "answer": "HTTPS",
+    "options": ["HTTP", "FTP", "SMTP", "HTTPS"]
+  },
+  {
+    "id": 149,
+    "question": "¿Cuál de estos es un software antivirus?",
+    "answer": "Norton",
+    "options": ["Excel", "Photoshop", "Norton", "Linux"]
+  },
+  {
+    "id": 150,
+    "question": "¿Qué componente se considera el 'cerebro' de una computadora?",
+    "answer": "CPU",
+    "options": ["RAM", "GPU", "CPU", "Placa base"]
+  },
+  {
+    "id": 151,
+    "question": "¿Qué significa GUI?",
+    "answer": "Interfaz gráfica de usuario",
+    "options": [
+      "Interfaz de usuario general",
+      "Interfaz gráfica de usuario",
+      "Interfaz de usuario generada",
+      "Interfaz de usuario de cuadrícula"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "¿Qué empresa desarrolló el sistema operativo Windows?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Google", "Microsoft", "IBM"]
+  },
+  {
+    "id": 153,
+    "question": "¿Qué significa USB?",
+    "answer": "Bus serie universal",
+    "options": [
+      "Bus serie universal",
+      "Base serie unificada",
+      "Bus de servicio universal",
+      "Base de señal universal"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "¿Cuál es el lenguaje principal utilizado para el desarrollo de Android?",
+    "answer": "Java",
+    "options": ["JavaScript", "Python", "Java", "Swift"]
+  },
+  {
+    "id": 155,
+    "question": "¿Qué empresa creó la consola PlayStation?",
+    "answer": "Sony",
+    "options": ["Microsoft", "Sony", "Nintendo", "Sega"]
+  },
+  {
+    "id": 156,
+    "question": "¿Qué significa VPN?",
+    "answer": "Red privada virtual",
+    "options": [
+      "Red virtual protegida",
+      "Red privada virtual",
+      "Red privada visual",
+      "Red privada verificada"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "¿Qué protocolo se utiliza para recuperar el correo electrónico?",
+    "answer": "IMAP",
+    "options": ["FTP", "SMTP", "IMAP", "HTTPS"]
+  },
+  {
+    "id": 158,
+    "question": "¿Para qué se utiliza principalmente HTML?",
+    "answer": "Crear páginas web",
+    "options": [
+      "Programar juegos",
+      "Crear páginas web",
+      "Análisis de datos",
+      "Edición de vídeo"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "¿Cuál es el uso principal de JavaScript?",
+    "answer": "Desarrollo web",
+    "options": [
+      "Desarrollo de juegos",
+      "Análisis de datos",
+      "Aplicaciones móviles",
+      "Desarrollo web"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "¿Qué lenguaje se utiliza habitualmente para el desarrollo de aplicaciones iOS?",
+    "answer": "Swift",
+    "options": ["JavaScript", "Python", "Java", "Swift"]
+  },
+  {
+    "id": 161,
+    "question": "¿Qué empresa desarrolló el primer teléfono inteligente?",
+    "answer": "IBM",
+    "options": ["Apple", "IBM", "Nokia", "Samsung"]
+  },
+  {
+    "id": 162,
+    "question": "¿Qué es el software de código abierto?",
+    "answer": "Software con código fuente disponible libremente",
+    "options": [
+      "Software que se puede descargar gratis",
+      "Software con código fuente disponible libremente",
+      "Software con una licencia paga",
+      "Software que no tiene soporte"
+    ]
+  },
+  {
+    "id": 163,
+    "question": "¿Cuál es el lenguaje principal que se utiliza para la ciencia de datos?",
+    "answer": "Python",
+    "options": ["Ruby", "Python", "JavaScript", "HTML"]
+  },
+  {
+    "id": 164,
+    "question": "¿Qué significa CSS?",
+    "answer": "Hojas de estilo en cascada",
+    "options": [
+      "Hojas de estilo en cascada",
+      "Hojas de estilo de computadora",
+      "Scripts de estilo personalizados",
+      "Estilo creativo Hojas de cálculo"
+    ]
+  },
+  {
+    "id": 165,
+    "question": "¿Qué tecnología se utiliza a menudo para el procesamiento de grandes volúmenes de datos?",
+    "answer": "Hadoop",
+    "options": ["Photoshop", "Hadoop", "MySQL", "AutoCAD"]
+  },
+  {
+    "id": 166,
+    "question": "¿Cuál es la función de un cortafuegos?",
+    "answer": "Bloquear el acceso no autorizado a una red",
+    "options": [
+      "Acelerar la red",
+      "Bloquear el acceso no autorizado a una red",
+      "Monitorear el rendimiento",
+      "Almacenar datos"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "¿Qué empresa es conocida por sus servicios de computación en la nube como AWS?",
+    "answer": "Amazon",
+    "options": ["Google", "Apple", "Amazon", "Microsoft"]
+  },
+  {
+    "id": 168,
+    "question": "¿Cuál es el término para ajustar el código para mejorar el rendimiento?",
+    "answer": "Optimización",
+    "options": [
+      "Depuración",
+      "Refactorización",
+      "Optimización",
+      "Control de versiones"
+    ]
+  },
+  {
+    "id": 169,
+    "question": "¿Qué software se usa ampliamente para el diseño gráfico?",
+    "answer": "Adobe Photoshop",
+    "options": ["Adobe Illustrator", "CorelDRAW", "Adobe Photoshop", "Inkscape"]
+  },
+  {
+    "id": 170,
+    "question": "¿Qué significa SQL?",
+    "answer": "Lenguaje de consulta estructurado",
+    "options": [
+      "Lenguaje de consulta estructurado",
+      "Lenguaje de consulta simple",
+      "Lenguaje de consulta estándar",
+      "Lenguaje de consulta seguro"
+    ]
+  },
+  {
+    "id": 171,
+    "question": "¿Qué ¿Cuál es la función principal de un disco duro?",
+    "answer": "Almacenar datos",
+    "options": [
+      "Aumentar la velocidad",
+      "Almacenar datos",
+      "Procesar gráficos",
+      "Conectarse a Internet"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "¿Qué es 'phishing'?",
+    "answer": "Una forma de ciberataque para robar información",
+    "options": [
+      "Una forma de eliminar archivos",
+      "Una forma de ciberataque para robar información",
+      "Un método de cifrado de archivos",
+      "Un error de codificación"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "¿Cuál de estos es un motor de búsqueda?",
+    "answer": "Google",
+    "options": ["Amazon", "Twitter", "Google", "Facebook"]
+  },
+  {
+    "id": 174,
+    "question": "¿Cuál es la función principal de un SSD?",
+    "answer": "Almacenar datos",
+    "options": [
+      "Para mejorar la velocidad",
+      "Para almacenar datos",
+      "Para procesar código",
+      "Para conectar dispositivos"
+    ]
+  },
+  {
+    "id": 175,
+    "question": "¿Qué lenguaje se conoce para el diseño de páginas web?",
+    "answer": "CSS",
+    "options": ["HTML", "Java", "CSS", "Python"]
+  },
+  {
+    "id": 176,
+    "question": "¿Qué significa la 'F' en FPGA?",
+    "answer": "Campo",
+    "options": ["Rápido", "Flexible", "Campo", "Función"]
+  },
+  {
+    "id": 177,
+    "question": "¿Cuál es el propósito de RAID?",
+    "answer": "Almacenar datos de forma redundante",
+    "options": [
+      "Crear una máquina virtual",
+      "Almacenar datos de forma redundante",
+      "Optimizar los gráficos",
+      "Aumentar la velocidad de la CPU"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "¿Cuál es el comando de Linux más utilizado para cambiar directorios?",
+    "answer": "cd",
+    "options": ["cp", "rm", "cd", "mv"]
+  },
+  {
+    "id": 179,
+    "question": "¿Cuál es el tamaño máximo de archivo para FAT32?",
+    "answer": "4 GB",
+    "options": ["2 GB", "4 GB", "8 GB", "16 GB"]
+  },
+  {
+    "id": 180,
+    "question": "¿Qué significa SaaS?",
+    "answer": "Software como servicio",
+    "options": [
+      "Servicio como software",
+      "Software como servicio",
+      "Sistema como software",
+      "Servicio y software"
+    ]
+  },
+  {
+    "id": 181,
+    "question": "¿Qué empresa desarrolló el teléfono inteligente Pixel?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Samsung", "Google"]
+  },
+  {
+    "id": 182,
+    "question": "¿Cuál es el propósito del DNS?",
+    "answer": "Para asignar nombres de dominio a direcciones IP",
+    "options": [
+      "Para administrar correos electrónicos",
+      "Para asignar nombres de dominio a direcciones IP",
+      "Para cifrar datos",
+      "Para monitorear el rendimiento"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "¿Cuál es el propósito principal de HTML?",
+    "answer": "Para crear la estructura de las páginas web",
+    "options": [
+      "Para crear aplicaciones",
+      "Para cifrar datos",
+      "Para dar estilo a las páginas web",
+      "Para crear la estructura de las páginas web"
+    ]
+  },
+  {
+    "id": 184,
+    "question": "¿Qué significa JPEG?",
+    "answer": "Grupo conjunto de expertos en fotografía",
+    "options": [
+      "Grupo conjunto de expertos en fotografía",
+      "Java Platform Enterprise Gráficos",
+      "Grupo de edición de píxeles conjunta",
+      "Gráficos de edición de imágenes en Java"
+    ]
+  },
+  {
+    "id": 185,
+    "question": "¿Qué empresa fabrica los dispositivos Surface?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Samsung", "Sony", "Microsoft"]
+  },
+  {
+    "id": 186,
+    "question": "¿Qué lenguaje de programación se utiliza principalmente para el cálculo estadístico?",
+    "answer": "R",
+    "options": ["Python", "Java", "R", "SQL"]
+  },
+  {
+    "id": 187,
+    "question": "¿Cuál es la función principal de Git?",
+    "answer": "Control de versiones",
+    "options": [
+      "Almacenamiento de datos",
+      "Desarrollo de juegos",
+      "Representación de gráficos",
+      "Control de versiones"
+    ]
+  },
+  {
+    "id": 188,
+    "question": "¿Qué dispositivo captura y digitaliza imágenes?",
+    "answer": "Escáner",
+    "options": ["Impresora", "Escáner", "Monitor", "Proyector"]
+  },
+  {
+    "id": 189,
+    "question": "¿Qué significa ISP?",
+    "answer": "Proveedor de servicios de Internet",
+    "options": [
+      "Proveedor de señal de Internet",
+      "Proveedor de servicios de Internet",
+      "Procesador interno del sistema",
+      "Punto de suministro de Internet"
+    ]
+  },
+  {
+    "id": 190,
+    "question": "¿Para qué se utiliza un certificado SSL?",
+    "answer": "Cifrar el tráfico web",
+    "options": [
+      "Crear páginas web",
+      "Almacenar datosta",
+      "Cifrado de tráfico web",
+      "Diseño de gráficos"
+    ]
+  },
+  {
+    "id": 191,
+    "question": "¿Qué significa FTP?",
+    "answer": "Protocolo de transferencia de archivos",
+    "options": [
+      "Programa de seguimiento de archivos",
+      "Protocolo de transferencia de archivos",
+      "Programa de transporte de archivos",
+      "Protocolo de transferencia rápida"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "¿Qué servicio en la nube proporciona Microsoft?",
+    "answer": "Azure",
+    "options": ["iCloud", "AWS", "Dropbox", "Azure"]
+  },
+  {
+    "id": 193,
+    "question": "¿Qué dispositivo genera información visual?",
+    "answer": "Monitor",
+    "options": ["Teclado", "Ratón", "Monitor", "Micrófono"]
+  },
+  {
+    "id": 194,
+    "question": "¿Cuál es el propósito de un enrutador?",
+    "answer": "Dirigir datos entre redes",
+    "options": [
+      "Almacenar datos",
+      "Procesar datos",
+      "Dirigir datos entre redes",
+      "Cifrar datos"
+    ]
+  },
+  {
+    "id": 195,
+    "question": "¿Para qué se utiliza CSS?",
+    "answer": "Dar estilo a páginas web",
+    "options": [
+      "Estructurar páginas web",
+      "Programar aplicaciones",
+      "Dar estilo a páginas web",
+      "Gestión de bases de datos"
+    ]
+  },
+  {
+    "id": 196,
+    "question": "¿Qué lenguaje se utiliza principalmente para el desarrollo de IA?",
+    "answer": "Python",
+    "options": ["Java", "HTML", "CSS", "Python"]
+  },
+  {
+    "id": 197,
+    "question": "¿Cuál es el propósito de un servidor proxy?",
+    "answer": "Actuar como un intermediario para las solicitudes",
+    "options": [
+      "Para mejorar el rendimiento de la CPU",
+      "Para almacenar datos",
+      "Para actuar como intermediario para las solicitudes",
+      "Para procesar gráficos"
+    ]
+  },
+  {
+    "id": 198,
+    "question": "¿Qué significa RAM?",
+    "answer": "Memoria de acceso aleatorio",
+    "options": [
+      "Memoria de asignación aleatoria",
+      "Memoria de acceso aleatorio",
+      "Módulo de acceso rápido",
+      "Módulo de acceso de lectura"
+    ]
+  },
+  {
+    "id": 199,
+    "question": "¿Qué empresa creó el iPhone?",
+    "answer": "Apple",
+    "options": ["Apple", "Samsung", "Nokia", "Sony"]
+  },
+  {
+    "id": 200,
+    "question": "¿Qué significa LAN?",
+    "answer": "Red de área local",
+    "options": [
+      "Red de área local",
+      "Red de área grande",
+      "Red de acceso vinculado",
+      "Red de acceso ligero"
+    ]
+  },
+  {
+    "id": 201,
+    "question": "¿Qué tipo de datos se utiliza para los valores verdaderos/falsos?",
+    "answer": "Boolean",
+    "options": ["Integer", "String", "Boolean", "Float"]
+  },
+  {
+    "id": 202,
+    "question": "¿Qué empresa posee el sistema operativo Android?",
+    "answer": "Google",
+    "options": ["Apple", "Google", "Microsoft", "Samsung"]
+  },
+  {
+    "id": 203,
+    "question": "¿Qué significa BIOS?",
+    "answer": "Sistema básico de entrada/salida",
+    "options": [
+      "Sistema básico de información en línea",
+      "Sistema básico de entrada/salida",
+      "Sistema binario de entrada/salida",
+      "Sistema operativo integrado"
+    ]
+  },
+  {
+    "id": 204,
+    "question": "¿Cuál de estas es una memoria principal?",
+    "answer": "RAM",
+    "options": ["RAM", "Disco duro", "Unidad flash", "CD-ROM"]
+  },
+  {
+    "id": 205,
+    "question": "¿Qué tipo de base de datos es MySQL?",
+    "answer": "Relacional",
+    "options": [
+      "No relacional",
+      "Relacional",
+      "Distribuida",
+      "Basada en archivos"
+    ]
+  },
+  {
+    "id": 206,
+    "question": "¿Qué lenguaje de codificación se utiliza habitualmente para la automatización?",
+    "answer": "Python",
+    "options": ["JavaScript", "Python", "HTML", "CSS"]
+  },
+  {
+    "id": 207,
+    "question": "¿Para qué se utiliza HTTP?",
+    "answer": "Transferencia de páginas web",
+    "options": [
+      "Cifrado de datos",
+      "Almacenamiento de imágenes",
+      "Transferencia de páginas web",
+      "Procesamiento de vídeo"
+    ]
+  },
+  {
+    "id": 208,
+    "question": "¿Cuál es el propósito de las cookies?",
+    "answer": "Para almacenar datos de usuario para sitios web",
+    "options": [
+      "Para mejorar la seguridad",
+      "Para rastrear versiones de software",
+      "Para almacenar datos de usuario para sitios web",
+      "Para mostrar anuncios"
+    ]
+  },
+  {
+    "id": 209,
+    "question": "¿Qué dispositivo se utiliza para grabar sonido?",
+    "answer": "Micrófono",
+    "options": ["Altavoz", "Micrófono", "Auriculares", "Proyector"]
+  },
+  {
+    "id": 210,
+    "question": "¿Cuál es el número máximo de preguntas en esta lista?",
+    "answer": "250",
+    "options": ["50", "150", "250", "300"]
+  },
+  {
+    "id": 211,
+    "question": "¿Qué significa 'HTTP'?",
+    "answer": "Protocolo de transferencia de hipertexto",
+    "options": [
+      "Protocolo de transporte de hipertexto",
+      "Protocolo de transferencia de hipertexto",
+      "Protocolo de transferencia de hipervínculo",
+      "Protocolo de traducción de hipertexto"
+    ]
+  },
+  {
+    "id": 212,
+    "question": "¿Cuál es el propósito principal de un firewall?",
+    "answer": "Bloquear el acceso no autorizado a una red",
+    "options": [
+      "Acelerar la conexión a Internet",
+      "Monitorear el tráfico",
+      "Bloquear el acceso no autorizado a una red",
+      "Cifrar datos"
+    ]
+  },
+  {
+    "id": 213,
+    "question": "¿Qué significa 'URL'?",
+    "answer": "Localizador uniforme de recursos",
+    "options": [
+      "UniversalLocalizador de recursos",
+      "Localizador uniforme de recursos",
+      "Enlace uniforme de recursos",
+      "Enlace universal de recursos"
+    ]
+  },
+  {
+    "id": 214,
+    "question": "¿Cuál es el uso principal de un enrutador?",
+    "answer": "Conectar varias redes",
+    "options": [
+      "Conectar computadoras a una impresora",
+      "Conectar varias redes",
+      "Almacenar datos",
+      "Administrar actualizaciones de software"
+    ]
+  },
+  {
+    "id": 215,
+    "question": "¿Qué lenguaje de programación se usa principalmente para el desarrollo web?",
+    "answer": "JavaScript",
+    "options": ["C++", "Java", "Python", "JavaScript"]
+  },
+  {
+    "id": 216,
+    "question": "¿Qué es una base de datos?",
+    "answer": "Una colección estructurada de datos",
+    "options": [
+      "Un programa para cálculos",
+      "Una colección estructurada de datos",
+      "Un tipo de hardware",
+      "Una aplicación web"
+    ]
+  },
+  {
+    "id": 217,
+    "question": "¿Qué significa 'SQL'?",
+    "answer": "Lenguaje de consulta estructurado",
+    "options": [
+      "Lenguaje de consulta estructurado",
+      "Lenguaje de consulta simple",
+      "Lenguaje de consulta estándar",
+      "Lenguaje de consulta seguro"
+    ]
+  },
+  {
+    "id": 218,
+    "question": "¿Cuál es la función principal de un motor de búsqueda?",
+    "answer": "Ayudar a los usuarios a encontrar información en línea",
+    "options": [
+      "Almacenar datos",
+      "Proporcionar acceso a Internet",
+      "Ayudar a los usuarios a encontrar información en línea",
+      "Administrar sitios web"
+    ]
+  },
+  {
+    "id": 219,
+    "question": "¿Qué significa 'CSS'?",
+    "answer": "Hojas de estilo en cascada",
+    "options": [
+      "Hojas de estilo en cascada",
+      "Estilo creativo Hojas de estilo",
+      "Hojas de estilo coloridas",
+      "Hojas de estilo de computadora"
+    ]
+  },
+  {
+    "id": 220,
+    "question": "¿Qué es un algoritmo?",
+    "answer": "Un procedimiento paso a paso para cálculos",
+    "options": [
+      "Un tipo de software",
+      "Un procedimiento paso a paso para cálculos",
+      "Un lenguaje de programación",
+      "Un componente de hardware"
+    ]
+  },
+  {
+    "id": 221,
+    "question": "¿Qué significa 'IA'?",
+    "answer": "Inteligencia artificial",
+    "options": [
+      "Interfaz automatizada",
+      "Inteligencia artificial",
+      "Información aplicada",
+      "Inteligencia algorítmica"
+    ]
+  },
+  {
+    "id": 222,
+    "question": "¿Cuál es el propósito del cifrado?",
+    "answer": "Para proteger los datos",
+    "options": [
+      "Para comprimir los datos",
+      "Para proteger los datos",
+      "Para mejorar rendimiento",
+      "Para realizar copias de seguridad de los datos"
+    ]
+  },
+  {
+    "id": 223,
+    "question": "¿Qué es un navegador web?",
+    "answer": "Una aplicación de software para acceder a información en la World Wide Web",
+    "options": [
+      "Un tipo de servidor",
+      "Una aplicación de software para acceder a información en la World Wide Web",
+      "Un lenguaje de programación",
+      "Un tipo de base de datos"
+    ]
+  },
+  {
+    "id": 224,
+    "question": "¿Qué es un ataque de phishing?",
+    "answer": "Un intento fraudulento de obtener información confidencial",
+    "options": [
+      "Un intento de mejorar la seguridad",
+      "Un método de cifrado de datos",
+      "Un intento fraudulento de obtener información confidencial",
+      "Un ataque de red"
+    ]
+  },
+  {
+    "id": 225,
+    "question": "¿Qué significa 'VPN'?",
+    "answer": "Red privada virtual",
+    "options": [
+      "Red pública virtual",
+      "Red privada virtual",
+      "Red virtual protegida",
+      "Red personal virtual"
+    ]
+  },
+  {
+    "id": 226,
+    "question": "¿Cuál es el propósito principal de una copia de seguridad de datos?",
+    "answer": "Para evitar la pérdida de datos",
+    "options": [
+      "Para acelerar el procesamiento",
+      "Para mejorar la seguridad",
+      "Para evitar la pérdida de datos",
+      "Para mejorar la accesibilidad"
+    ]
+  },
+  {
+    "id": 227,
+    "question": "¿Qué es una actualización de software?",
+    "answer": "Una versión para solucionar problemas o agregar funciones",
+    "options": [
+      "Un método para desinstalar programas",
+      "Una versión para solucionar problemas o agregar funciones",
+      "Un tipo de actualización de hardware",
+      "Un restablecimiento del sistema"
+    ]
+  },
+  {
+    "id": 228,
+    "question": "¿Qué es 'malware'?",
+    "answer": "Software malicioso diseñado para dañar o explotar cualquier dispositivo programable",
+    "options": [
+      "Software que protege a las computadoras",
+      "Software malicioso diseñado para dañar o explotar cualquier dispositivo programable",
+      "Un tipo de antivirus",
+      "Software para administrar datos"
+    ]
+  },
+  {
+    "id": 229,
+    "question": "¿Qué significa software “de código abierto”?",
+    "answer": "Software con código fuente que cualquiera puede inspeccionar, modificar y mejorar",
+    "options": [
+      "Software sin costo",
+      "Software de uso gratuito",
+      "Software con código fuente que cualquiera puede inspeccionar, modificar y mejorar",
+      "Software de uso fácil"
+    ]
+  },
+  {
+    "id": 230,
+    "question": "¿Qué es la computación en la nube?",
+    "answer": "Uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos",
+    "options": [
+      "Almacenamiento de datos en servidores locales",
+      "Uso de una red de servidores remotos alojados enInternet para almacenar, gestionar y procesar datos",
+      "Crear sitios web en la nube",
+      "Gestión de datos a través de aplicaciones locales"
+    ]
+  },
+  {
+    "id": 231,
+    "question": "¿Qué es una red informática?",
+    "answer": "Un grupo de ordenadores interconectados que pueden compartir recursos",
+    "options": [
+      "Un tipo de ordenador",
+      "Un grupo de ordenadores interconectados que pueden compartir recursos",
+      "Un servidor",
+      "Un lenguaje de programación"
+    ]
+  },
+  {
+    "id": 232,
+    "question": "¿Qué significa 'IoT'?",
+    "answer": "Internet de las cosas",
+    "options": [
+      "Internet de la tecnología",
+      "Internet de las herramientas",
+      "Internet de las cosas",
+      "Internet de las telecomunicaciones"
+    ]
+  },
+  {
+    "id": 233,
+    "question": "¿Cuál es la función de un sistema operativo?",
+    "answer": "Gestionar los recursos de hardware y software de un ordenador",
+    "options": [
+      "Administrar los recursos de hardware y software de la computadora",
+      "Proporcionar acceso a Internet",
+      "Almacenar archivos",
+      "Ejecutar aplicaciones"
+    ]
+  },
+  {
+    "id": 234,
+    "question": "¿Qué significa 'DDoS'?",
+    "answer": "Denegación de servicio distribuida",
+    "options": [
+      "Denegación de servicio directa",
+      "Denegación de servicio distribuida",
+      "Denegación de servicio dinámica",
+      "Denegación de servicio de datos"
+    ]
+  },
+  {
+    "id": 235,
+    "question": "¿Cuál es el propósito de un depurador?",
+    "answer": "Identificar y corregir errores en el software",
+    "options": [
+      "Mejorar el rendimiento",
+      "Identificar y corregir errores en el software",
+      "Compilar código",
+      "Almacenar datos"
+    ]
+  },
+  {
+    "id": 236,
+    "question": "¿Qué es una URL?",
+    "answer": "Una dirección específica utilizada para acceder a recursos en Internet",
+    "options": [
+      "Un tipo de software",
+      "Una dirección específica utilizada para acceder a recursos en Internet",
+      "Una aplicación web",
+      "Un tipo de base de datos"
+    ]
+  },
+  {
+    "id": 237,
+    "question": "¿A qué se refiere “spam” en el correo electrónico?",
+    "answer": "Mensajes no solicitados y a menudo irrelevantes",
+    "options": [
+      "Un tipo de cliente de correo electrónico",
+      "Mensajes no solicitados y a menudo irrelevantes",
+      "Un tipo de virus",
+      "Un mensaje seguro"
+    ]
+  },
+  {
+    "id": 238,
+    "question": "¿Qué es un bot?",
+    "answer": "Un programa automatizado que realiza tareas",
+    "options": [
+      "Un componente de hardware",
+      "Un programa automatizado que realiza tareas",
+      "Un tipo de malware",
+      "Un virus informático"
+    ]
+  },
+  {
+    "id": 239,
+    "question": "¿A qué se refiere “ancho de banda”?",
+    "answer": "La velocidad máxima de transferencia de datos a través de una red",
+    "options": [
+      "La cantidad de datos almacenados",
+      "La velocidad máxima de transferencia de datos a través de una red",
+      "La velocidad de una computadora",
+      "El tamaño de un archivo"
+    ]
+  },
+  {
+    "id": 240,
+    "question": "¿Cuál es la función de una API?",
+    "answer": "Permitir que diferentes aplicaciones de software se comuniquen",
+    "options": [
+      "Almacenar datos",
+      "Mejorar el rendimiento",
+      "Permitir que diferentes aplicaciones de software se comuniquen",
+      "Administrar bases de datos"
+    ]
+  },
+  {
+    "id": 241,
+    "question": "¿Qué significa 'GUI'?",
+    "answer": "Interfaz gráfica de usuario",
+    "options": [
+      "Interfaz gráfica de usuario",
+      "Interfaz de usuario general",
+      "Interfaz de usuario guiada",
+      "Interfaz de usuario global"
+    ]
+  },
+  {
+    "id": 242,
+    "question": "¿Qué es una memoria caché?",
+    "answer": "Capa de almacenamiento que mejora la velocidad de recuperación de datos",
+    "options": [
+      "Un tipo de software",
+      "Una capa de almacenamiento que mejora la velocidad de recuperación de datos",
+      "Una base de datos",
+      "Un protocolo de red"
+    ]
+  },
+  {
+    "id": 243,
+    "question": "¿Qué significa 'SDK'?",
+    "answer": "Kit de desarrollo de software",
+    "options": [
+      "Kit de desarrollo de sistemas",
+      "Kit de desarrollo de software",
+      "Kit de desarrollo seguro",
+      "Kit de desarrollo estándar"
+    ]
+  },
+  {
+    "id": 244,
+    "question": "¿Qué es un píxel?",
+    "answer": "La unidad más pequeña de una imagen digital",
+    "options": [
+      "La unidad más pequeña de una imagen digital",
+      "Un tipo de software",
+      "Un componente de hardware",
+      "Un protocolo de red"
+    ]
+  },
+  {
+    "id": 245,
+    "question": "¿A qué se refiere 'IoT'?",
+    "answer": "Dispositivos conectados a Internet",
+    "options": [
+      "Solo teléfonos inteligentes",
+      "Dispositivos conectados a Internet",
+      "Comunicación inalámbrica",
+      "Seguridad en Internet"
+    ]
+  },
+  {
+    "id": 246,
+    "question": "¿Qué es una hoja de cálculo?",
+    "answer": "Una herramienta digital para organizar datos en filas y columnas",
+    "options": [
+      "Un tipo de base de datos",
+      "Una herramienta digital para organizar datos en filas y columnas",
+      "Un lenguaje de programación",
+      "Una aplicación web"
+    ]
+  },
+  {
+    "id": 247,
+    "question": "¿Qué significa 'SSH'?",
+    "answer": "Secure Shell",
+    "options": [
+      "Host de socket seguro",
+      "Secure Shell",
+      "Simple Shell",
+      "Host seguro del sistema"
+    ]
+  },
+  {
+    "id": 248,
+    "question": "¿Qué es un nombre de dominio?",
+    "answer": "Una dirección legible para humanos de un sitio web",
+    "options": [
+      "Un tipo de software",
+      "Una dirección legible para humanos de un sitio web",
+      "Un nombre de servidor",
+      "Un protocolo"
+    ]
+  },
+  {
+    "id": 249,
+    "question": "¿Qué es una violación de datos?",
+    "answer": "Un incidente en el que se produce un acceso no autorizado a los datos",
+    "options": [
+      "Un protocolo de seguridad",
+      "Un incidente en el que se produce un acceso no autorizado a los datos",
+      "Un tipo de malware",
+      "Una copia de seguridad de los datos"
+    ]
+  },
+  {
+    "id": 250,
+    "question": "¿Qué significa 'BI'?",
+    "answer": "Inteligencia empresarial",
+    "options": [
+      "Integración empresarial",
+      "Inteligencia empresarial",
+      "Información empresarial",
+      "Interfaz empresarial"
+    ]
+  },
+  {
+    "id": 251,
+    "question": "¿A qué se refiere el término 'malware'?",
+    "answer": "Software malicioso diseñado para dañar un sistema informático",
+    "options": [
+      "Software que protege contra virus",
+      "Software malicioso diseñado para dañar un sistema informático",
+      "Software que mejora el rendimiento",
+      "Software que administra bases de datos"
+    ]
+  },
+  {
+    "id": 252,
+    "question": "¿Qué protocolo se utiliza habitualmente para transacciones web seguras?",
+    "answer": "HTTPS",
+    "options": ["HTTP", "SMTP", "FTP", "HTTPS"]
+  },
+  {
+    "id": 253,
+    "question": "¿Qué significa 'IA'?",
+    "answer": "Inteligencia artificial",
+    "options": [
+      "Interacción automatizada",
+      "Inteligencia artificial",
+      "Internet avanzado",
+      "Internet artificial"
+    ]
+  },
+  {
+    "id": 254,
+    "question": "¿Qué lenguaje de programación se utiliza para el desarrollo de back-end web?",
+    "answer": "PHP",
+    "options": ["HTML", "PHP", "CSS", "JavaScript"]
+  },
+  {
+    "id": 255,
+    "question": "¿Qué es un byte?",
+    "answer": "Una unidad de información digital",
+    "options": [
+      "Una unidad de almacenamiento de datos",
+      "Un tipo de software",
+      "Un virus informático",
+      "Un componente de hardware"
+    ]
+  },
+  {
+    "id": 256,
+    "question": "¿Qué significa 'IP'?",
+    "answer": "Protocolo de Internet",
+    "options": [
+      "Plataforma de Internet",
+      "Protocolo interno",
+      "Protocolo de Internet",
+      "Protocolo internacional"
+    ]
+  },
+  {
+    "id": 258,
+    "question": "¿Qué paradigma de programación se centra en los objetos?",
+    "answer": "Programación orientada a objetos",
+    "options": [
+      "Programación funcional",
+      "Programación procedimental",
+      "Programación lógica",
+      "Programación orientada a objetos"
+    ]
+  },
+  {
+    "id": 259,
+    "question": "¿A qué se refiere el término 'computación en la nube'?",
+    "answer": "Almacenamiento y acceso a datos a través de Internet",
+    "options": [
+      "Almacenamiento local de datos",
+      "Almacenamiento y acceso a datos a través de Internet",
+      "Gestión de datos interna",
+      "Conexión de equipos en red"
+    ]
+  },
+  {
+    "id": 260,
+    "question": "¿Cuál es el propósito de un antivirus? programa?",
+    "answer": "Para detectar y eliminar malware",
+    "options": [
+      "Para acelerar la computadora",
+      "Para detectar y eliminar malware",
+      "Para administrar actualizaciones de software",
+      "Para monitorear el rendimiento"
+    ]
+  },
+  {
+    "id": 261,
+    "question": "¿Qué significa 'HTTP'?",
+    "answer": "Protocolo de transferencia de hipertexto",
+    "options": [
+      "Protocolo de transporte de hipertexto",
+      "Protocolo de transferencia de hipertexto",
+      "Protocolo de transferencia de texto de hipertransferencia",
+      "Protocolo de transferencia de hipervínculo"
+    ]
+  },
+  {
+    "id": 262,
+    "question": "¿Cuál es el uso principal de una VPN?",
+    "answer": "Para asegurar las conexiones a Internet",
+    "options": [
+      "Para aumentar la velocidad de Internet",
+      "Para asegurar las conexiones a Internet",
+      "Para administrar el correo electrónico",
+      "Para bloquear anuncios"
+    ]
+  },
+  {
+    "id": 263,
+    "question": "¿Cuál de estos es un front-end? tecnología web?",
+    "answer": "HTML",
+    "options": ["Java", "HTML", "Python", "C#"]
+  },
+  {
+    "id": 264,
+    "question": "¿Qué significa '2FA'?",
+    "answer": "Autenticación de dos factores",
+    "options": [
+      "Autenticación de dos factores",
+      "Autorización de dos factores",
+      "Acceso de dos factores",
+      "Cuenta de dos factores"
+    ]
+  },
+  {
+    "id": 265,
+    "question": "¿Qué es un nombre de dominio?",
+    "answer": "Una dirección legible para humanos para un sitio web",
+    "options": [
+      "Una ubicación de servidor",
+      "Un tipo de software",
+      "Una dirección legible para humanos para un sitio web",
+      "Una dirección de correo electrónico"
+    ]
+  },
+  {
+    "id": 266,
+    "question": "¿Qué herramienta se usa comúnmente para el control de versiones?",
+    "answer": "Git",
+    "options": ["Docker", "Git", "Jira", "Trello"]
+  },
+  {
+    "id": 267,
+    "question": "¿Qué significa 'BYOD'?",
+    "answer": "Te traemosr Dispositivo propio",
+    "options": [
+      "Traiga su propio dispositivo",
+      "Traiga sus propios datos",
+      "Traiga su propio desarrollo",
+      "Traiga su propia descarga"
+    ]
+  },
+  {
+    "id": 268,
+    "question": "¿Cuál es la función principal de un sistema operativo?",
+    "answer": "Administrar recursos de hardware y software",
+    "options": [
+      "Administrar recursos de hardware y software",
+      "Diseñar aplicaciones",
+      "Crear sitios web",
+      "Almacenar archivos"
+    ]
+  },
+  {
+    "id": 269,
+    "question": "¿Cuál es la principal ventaja de los SSD sobre los HDD?",
+    "answer": "Velocidades de acceso a datos más rápidas",
+    "options": [
+      "Menor costo",
+      "Mayor capacidad",
+      "Velocidades de acceso a datos más rápidas",
+      "Más durabilidad"
+    ]
+  },
+  {
+    "id": 270,
+    "question": "¿Qué significa 'DDoS'?",
+    "answer": "Denegación de servicio distribuida",
+    "options": [
+      "Denegación de servicio directa",
+      "Denegación de servicio distribuida",
+      "Denegación de servicio dinámica",
+      "Denegación de servicio dual"
+    ]
+  },
+  {
+    "id": 271,
+    "question": "¿Qué es un virus informático?",
+    "answer": "Código malicioso que se replica a sí mismo",
+    "options": [
+      "Un tipo de software",
+      "Una medida de seguridad",
+      "Código malicioso que se replica a sí mismo",
+      "Un componente de hardware"
+    ]
+  },
+  {
+    "id": 272,
+    "question": "¿Cuál es el propósito de un depurador?",
+    "answer": "Identificar y corregir errores en el código",
+    "options": [
+      "Optimizar el rendimiento",
+      "Identificar y corregir errores en el código",
+      "Administrar bases de datos",
+      "Compilar código"
+    ]
+  },
+  {
+    "id": 273,
+    "question": "¿Cuál es la función principal de un sistema de gestión de bases de datos?",
+    "answer": "Almacenar y gestionar datos",
+    "options": [
+      "Crear sitios web",
+      "Almacenar y gestionar datos",
+      "Procesar imágenes",
+      "Analizar datos"
+    ]
+  },
+  {
+    "id": 274,
+    "question": "¿Cuál de los siguientes es un lenguaje de programación back-end?",
+    "answer": "Ruby",
+    "options": ["HTML", "CSS", "Ruby", "JavaScript"]
+  },
+  {
+    "id": 275,
+    "question": "¿Qué significa 'SaaS'?",
+    "answer": "Software como servicio",
+    "options": [
+      "Software como servicio",
+      "Sistema como software",
+      "Software como sistema",
+      "Servicio como software"
+    ]
+  },
+  {
+    "id": 276,
+    "question": "¿Cuál es el propósito principal de un firewall?",
+    "answer": "Prevenir el acceso no autorizado acceso",
+    "options": [
+      "Para mejorar el rendimiento",
+      "Para evitar el acceso no autorizado",
+      "Para almacenar datos",
+      "Para administrar aplicaciones"
+    ]
+  },
+  {
+    "id": 277,
+    "question": "¿Qué significa 'HTTPS'?",
+    "answer": "Protocolo de transferencia de hipertexto seguro",
+    "options": [
+      "Servicio de protocolo de transferencia de hipertexto",
+      "Protocolo de transferencia de hipertexto seguro",
+      "Protocolo de transferencia de texto de hipertexto seguro",
+      "Protocolo de transporte de hipertexto seguro"
+    ]
+  },
+  {
+    "id": 278,
+    "question": "¿Cuál de estos es un tipo de red?",
+    "answer": "LAN",
+    "options": ["WAN", "LAN", "PAN", "Todas las anteriores"]
+  },
+  {
+    "id": 279,
+    "question": "¿Cuál es el propósito de un conmutador de red?"
+  },
+  {
+    "id": 280,
+    "question": "¿Qué significa 'NAT'?",
+    "answer": "Traducción de direcciones de red",
+    "options": [
+      "Tecnología de acceso a la red",
+      "Traducción de direcciones de red",
+      "Transferencia automática de red",
+      "Tecnología de aplicación de red"
+    ]
+  },
+  {
+    "id": 281,
+    "question": "¿Cuál es el uso principal de un motor de búsqueda?",
+    "answer": "Para encontrar información en la web",
+    "options": [
+      "Para almacenar archivos",
+      "Para crear sitios web",
+      "Para encontrar información en la web",
+      "Para administrar bases de datos"
+    ]
+  },
+  {
+    "id": 282,
+    "question": "¿Qué significa 'código QR'?",
+    "answer": "Código de respuesta rápida",
+    "options": [
+      "Código de respuesta rápida",
+      "Lectura rápida código",
+      "Código de respuesta de calidad",
+      "Código de referencia rápida"
+    ]
+  },
+  {
+    "id": 283,
+    "question": "¿Qué tipo de software se utiliza habitualmente para el diseño gráfico?",
+    "answer": "Adobe Photoshop",
+    "options": [
+      "Adobe Reader",
+      "Adobe Photoshop",
+      "Microsoft Word",
+      "PowerPoint"
+    ]
+  },
+  {
+    "id": 284,
+    "question": "¿Cuál es el propósito principal de una dirección IP?",
+    "answer": "Identificar dispositivos en una red",
+    "options": [
+      "Asegurar datos",
+      "Identificar dispositivos en una red",
+      "Almacenar datos",
+      "Monitorear el rendimiento"
+    ]
+  },
+  {
+    "id": 285,
+    "question": "¿Qué es un 'sandbox' en informática?",
+    "answer": "Un entorno de prueba para software",
+    "options": [
+      "Un tipo de malware",
+      "Un entorno de prueba para software",
+      "Un dispositivo de almacenamiento",
+      "Un tipo de sistema operativo"
+    ]
+  },
+  {
+    "id": 286,
+    "question": "¿Qué significa 'SQL'?",
+    "answer": "Lenguaje de consulta estructurado",
+    "options": [
+      "Lenguaje de consulta estándar",
+      "Lenguaje de consulta estructurado",
+      "Lenguaje de consulta simple",
+      "Lenguaje de consulta seguro"
+    ]
+  },
+  {
+    "id": 287,
+    "question": "¿Cuál es la función principal de un servidor web?",
+    "answer": "Para alojar sitios web",
+    "options": [
+      "Para crear bases de datos",
+      "Para alojar sitios web",
+      "Para proporcionar acceso a Internet",
+      "Para supervisar el tráfico de la red"
+    ]
+  },
+  {
+    "id": 288,
+    "question": "¿Qué significa 'IoT'?",
+    "answer": "Internet de las cosas",
+    "options": [
+      "Internet de la tecnología",
+      "Internet de las herramientas",
+      "Internet de las cosas",
+      "Internet de las cosas"
+    ]
+  },
+  {
+    "id": 289,
+    "question": "¿Qué es una 'cookie' en la tecnología web?",
+    "answer": "Un pequeño fragmento de datos almacenado en la computadora del usuario",
+    "options": [
+      "Un tipo de software",
+      "Un pequeño fragmento de datos almacenado en la computadora del usuario",
+      "Un tipo de hardware",
+      "Un registro de base de datos"
+    ]
+  },
+  {
+    "id": 290,
+    "question": "¿Qué significa software de 'código abierto'?",
+    "answer": "Software con código fuente disponible públicamente",
+    "options": [
+      "Software gratuito",
+      "Software con código fuente disponible públicamente",
+      "Software sin garantía",
+      "Software con funciones limitadas"
+    ]
+  },
+  {
+    "id": 291,
+    "question": "¿Cuál es el propósito de un balanceador de carga?",
+    "answer": "Distribuir el tráfico entre varios servidores",
+    "options": [
+      "Monitorear el tráfico de la red",
+      "Distribuir el tráfico entre varios servidores",
+      "Asegurar los datos",
+      "Almacenar datos"
+    ]
+  },
+  {
+    "id": 292,
+    "question": "¿Qué significa 'RAM'?",
+    "answer": "Memoria de acceso aleatorio",
+    "options": [
+      "Memoria de acceso de lectura",
+      "Memoria de acceso aleatorio",
+      "Memoria de acceso rápido",
+      "Memoria de asignación aleatoria"
+    ]
+  },
+  {
+    "id": 293,
+    "question": "¿Qué es un 'host' en redes?",
+    "answer": "Un dispositivo conectado a una red",
+    "options": [
+      "Solo un servidor",
+      "Un dispositivo conectado a una red",
+      "Una aplicación de software",
+      "Un tipo de virus"
+    ]
+  },
+  {
+    "id": 294,
+    "question": "¿Qué significa 'DNS'?",
+    "answer": "Sistema de nombres de dominio",
+    "options": [
+      "Sistema de nombres dinámico",
+      "Servicio de nombres de dominio",
+      "Sistema de nombres de dominio",
+      "Sistema de nombres de datos"
+    ]
+  },
+  {
+    "id": 295,
+    "question": "¿Cuál es la función principal de un servidor proxy?",
+    "answer": "Actuar como intermediario para las solicitudes",
+    "options": [
+      "Almacenar datos",
+      "Procesar gráficos",
+      "Actuar como intermediario para las solicitudes",
+      "Administrar el correo electrónico"
+    ]
+  },
+  {
+    "id": 296,
+    "question": "¿Cuál es el propósito de un almacén de datos?",
+    "answer": "Almacenar y analizar grandes cantidades de datos",
+    "options": [
+      "Almacenar archivos pequeños",
+      "Almacenar y analizar grandes cantidades de datos",
+      "Crear sitios web",
+      "Mejorar el rendimiento"
+    ]
+  },
+  {
+    "id": 297,
+    "question": "¿Qué significa 'VoIP'?",
+    "answer": "Voz sobre protocolo de Internet",
+    "options": [
+      "Voz sobre protocolo interno",
+      "Plataforma de voz sobre Internet",
+      "Voz sobre protocolo de Internet",
+      "Voz sobre protocolo interno"
+    ]
+  },
+  {
+    "id": 298,
+    "question": "¿Cuál de los siguientes es un tipo de malware?",
+    "answer": "Troyano",
+    "options": ["Troyano", "Firewall", "Antivirus", "Router"]
+  },
+  {
+    "id": 299,
+    "question": "¿Cuál es el objetivo principal del cifrado de datos?",
+    "answer": "Proteger los datos del acceso no autorizado",
+    "options": [
+      "Comprimir los datos",
+      "Proteger los datos del acceso no autorizado",
+      "Mejorar el rendimiento",
+      "Hacer copias de seguridad de los datos"
+    ]
+  },
+  {
+    "id": 300,
+    "question": "¿A qué se refiere ágil en el desarrollo de software?",
+    "answer": "Una metodología centrada en el desarrollo iterativo",
+    "options": [
+      "Un lenguaje de programación",
+      "Un tipo de base de datos",
+      "Una metodología centrada en el desarrollo iterativo",
+      "Una herramienta de software"
+    ]
+  }
 ]

@@ -1,152 +1,2622 @@
 [
-    {"id": 1, "question": "What is the name of the new space telescope that NASA recently launched?", "answer": "The James Webb Space Telescope", "options": ["Hubble Space Telescope 2", "The James Webb Space Telescope", "Galileo Space Telescope", "Kepler Space Telescope 2"]},
-    {"id": 2, "question": "What is the name of the first human to walk on the moon?", "answer": "Neil Armstrong", "options": ["Buzz Aldrin", "Michael Collins", "Neil Armstrong", "Alan Shepard"]},
-    {"id": 3, "question": "What is the largest planet in the solar system?", "answer": "Jupiter", "options": ["Mars", "Jupiter", "Saturn", "Uranus"]},
-    {"id": 4, "question": "How many moons does the planet Saturn have?", "answer": "82", "options": ["27", "63", "82", "110"]},
-    {"id": 5, "question": "Who was the first cosmonaut to travel to space?", "answer": "Yuri Gagarin", "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]},
-    {"id": 6, "question": "What is the closest star to Earth?", "answer": "The Sun", "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "The Sun"]},
-    {"id": 7, "question": "What is the space agency responsible for China's space program?", "answer": "CNSA (China National Space Administration)", "options": ["NASA (National Aeronautics and Space Administration)", "ESA (European Space Agency)", "CNSA (China National Space Administration)", "Roscosmos (Russian Federal Space Agency)"]},
-    {"id": 8, "question": "What is the phenomenon where light from a celestial object is blocked by another object?", "answer": "Eclipse", "options": ["Nova", "Eclipse", "Supernova", "Asteroid"]},
-    {"id": 9, "question": "What is the name of the largest volcano in the solar system, located on Mars?", "answer": "Olympus Mons", "options": ["Mount Everest", "Mauna Loa", "Mount Vesuvius", "Olympus Mons"]},
-    {"id": 10, "question": "What is the name of the second-brightest star in the night sky?", "answer": "Canopus", "options": ["Sirius", "Betelgeuse", "Vega", "Canopus"]},
-    {"id": 11, "question": "What is the study of celestial bodies and phenomena outside the Earth's atmosphere called?", "answer": "Astronomy", "options": ["Astrology", "Astronomy", "Cosmology", "Meteorology"]},
-    {"id": 12, "question": "What is the name of the largest moon of Saturn?", "answer": "Titan", "options": ["Europa", "Titan", "Ganymede", "Callisto"]},
-    {"id": 13, "question": "What is the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?", "answer": "Sputnik 1", "options": ["Explorer 1", "Sputnik 1", "Vanguard 1", "Telstar 1"]},
-    {"id": 14, "question": "What is the name of the effect that causes a star's position to appear shifted when viewed from different positions in the Earth's orbit?", "answer": "Stellar parallax", "options": ["Gravitational lensing", "Redshift", "Stellar parallax", "Doppler effect"]},
-    {"id": 15, "question": "What is the name of the process by which a star converts hydrogen into helium?", "answer": "Nuclear fusion", "options": ["Nuclear fission", "Nuclear fusion", "Sublimation", "Condensation"]},
-    {"id": 16, "question": "What is the name of the spacecraft launched by NASA in 1977 to study the outer planets?", "answer": "Voyager 1", "options": ["Pioneer 10", "Viking 1", "Voyager 1", "New Horizons"]},
-    {"id": 17, "question": "What is the name of the galaxy that contains our solar system?", "answer": "Milky Way", "options": ["Andromeda", "Milky Way", "Triangulum", "Sombrero"]},
-    {"id": 18, "question": "What is the name of the phenomenon where a small part of the Sun's surface appears darker than the surrounding areas?", "answer": "Sunspot", "options": ["Solar flare", "Sunspot", "Prominence", "Coronal mass ejection"]},
-    {"id": 19, "question": "What is the name of the spacecraft that successfully landed on Mars in 2021, as part of NASA's Mars Exploration Program?", "answer": "Perseverance", "options": ["Curiosity", "Spirit", "Perseverance", "Opportunity"]},
-    {"id": 20, "question": "What is the name of the spacecraft that took the first humans to the Moon?", "answer": "Apollo 11", "options": ["Gemini 4", "Mercury 7", "Apollo 11", "Soyuz 11"]},
-    {"id": 21, "question": "What is the name of the point in the sky directly above an observer?", "answer": "Zenith", "options": ["Apex", "Nadir", "Zenith", "Horizon"]},
-    {"id": 22, "question": "What is the name of the star system consisting of three stars, including Proxima Centauri?", "answer": "Alpha Centauri", "options": ["Sirius", "Alpha Centauri", "Betelgeuse", "Vega"]},
-    {"id": 23, "question": "What is the name of the spacecraft that first orbited and landed on a comet?", "answer": "Rosetta", "options": ["Voyager 1", "Galileo", "Rosetta", "Cassini"]},
-    {"id": 24, "question": "What is the name of the brightest star in the constellation Orion?", "answer": "Rigel", "options": ["Betelgeuse", "Alnilam", "Rigel", "Bellatrix"]},
-    {"id": 25, "question": "What is the name of the phenomenon where the Moon partially or completely blocks the Sun?", "answer": "Solar eclipse", "options": ["Lunar eclipse", "Solar eclipse", "Transit", "Occultation"]},
-    {"id": 26, "question": "What is the name of the cloud of gas and dust in space where stars are born?", "answer": "Nebula", "options": ["Quasar", "Pulsar", "Nebula", "Supernova remnant"]},
-    {"id": 27, "question": "What is the name of the process by which a star exhausts its nuclear fuel and collapses under its own gravity?", "answer": "Supernova", "options": ["Nebula", "Protostar", "Supernova", "Red giant"]},
-    {"id": 28, "question": "What is the name of the dwarf planet located in the Kuiper Belt, formerly known as the ninth planet of the solar system?", "answer": "Pluto", "options": ["Eris", "Pluto", "Haumea", "Makemake"]},
-    {"id": 29, "question": "What is the name of the phenomenon where light is bent due to the gravitational pull of a massive object?", "answer": "Gravitational lensing", "options": ["Redshift", "Stellar parallax", "Gravitational lensing", "Doppler effect"]},
-    {"id": 30, "question": "What is the name of the spacecraft that made the first successful landing on Venus?", "answer": "Venera 7", "options": ["Mariner 10", "Venera 7", "Viking 1", "Magellan"]},
-    {"id": 31, "question": "What is the name of the point in the sky opposite the zenith?", "answer": "Nadir", "options": ["Apex", "Nadir", "Zenith", "Horizon"]},
-    {"id": 32, "question": "What is the name of the spacecraft that provided the first close-up images of Saturn and its moons?", "answer": "Voyager 2", "options": ["Cassini", "Voyager 2", "Huygens", "Galileo"]},
-    {"id": 33, "question": "What is the name of the planet known as the 'Red Planet'?", "answer": "Mars", "options": ["Venus", "Jupiter", "Mars", "Mercury"]},
-    {"id": 34, "question": "What is the name of the region in space between the orbits of Mars and Jupiter where many asteroids are found?", "answer": "Asteroid belt", "options": ["Kuiper Belt", "Oort Cloud", "Asteroid belt", "Van Allen belts"]},
-    {"id": 35, "question": "What is the name of the first space station, launched by the Soviet Union in 1971?", "answer": "Salyut 1", "options": ["Mir", "Skylab", "Salyut 1", "Tiangong"]},
-    {"id": 36, "question": "What is the name of the mission that successfully landed humans on the Moon for the first time?", "answer": "Apollo 11", "options": ["Gemini 4", "Mercury 7", "Apollo 11", "Soyuz 11"]},
-    {"id": 37, "question": "What is the name of the spacecraft launched by the European Space Agency (ESA) to study Comet 67P/Churyumov–Gerasimenko?", "answer": "Rosetta", "options": ["Philae", "Cassini", "Rosetta", "Voyager 2"]},
-    {"id": 38, "question": "What is the name of the largest moon of Jupiter?", "answer": "Ganymede", "options": ["Europa", "Titan", "Ganymede", "Callisto"]},
-    {"id": 39, "question": "What is the name of the spacecraft that first orbited and studied the planet Mercury?", "answer": "Mariner 10", "options": ["Voyager 1", "Messenger", "Mariner 10", "Galileo"]},
-    {"id": 40, "question": "What is the name of the spacecraft launched by NASA to study the planet Jupiter and its moons?", "answer": "Galileo", "options": ["Voyager 2", "New Horizons", "Galileo", "Cassini"]},
-    {"id": 41, "question": "What is the name of the asteroid that is believed to have caused the extinction of the dinosaurs?", "answer": "Chicxulub", "options": ["Apophis", "Chicxulub", "Bennu", "Vesta"]},
-    {"id": 42, "question": "What is the name of the phenomenon where a star's brightness temporarily increases due to a catastrophic explosion?", "answer": "Supernova", "options": ["Nebula", "Nova", "Supernova", "Pulsar"]},
-    {"id": 43, "question": "What is the name of the spacecraft launched by the Soviet Union in 1959, which made the first flyby of the Moon?", "answer": "Luna 1", "options": ["Vostok 1", "Luna 1", "Sputnik 1", "Zond 5"]},
-    {"id": 44, "question": "What is the name of the effect where light or other electromagnetic radiation from an object increases in wavelength as the object moves away from the observer?", "answer": "Redshift", "options": ["Blue shift", "Redshift", "Doppler effect", "Stellar parallax"]},
-    {"id": 45, "question": "What is the name of the spacecraft that first landed humans on the Moon?", "answer": "Apollo 11", "options": ["Gemini 4", "Mercury 7", "Apollo 11", "Soyuz 11"]},
-    {"id": 46, "question": "What is the name of the spacecraft launched by NASA to study the dwarf planet Pluto and the Kuiper Belt?", "answer": "New Horizons", "options": ["Rosetta", "Voyager 2", "New Horizons", "Cassini"]},
-    {"id": 47, "question": "What is the name of the process where a star shines by burning hydrogen into helium?", "answer": "Nuclear fusion", "options": ["Nuclear fission", "Nuclear fusion", "Sublimation", "Condensation"]},
-    {"id": 48, "question": "What is the name of the cloud of comets and icy bodies that surrounds the solar system?", "answer": "Oort Cloud", "options": ["Asteroid belt", "Kuiper Belt", "Oort Cloud", "Scattered disc"]},
-    {"id": 49, "question": "What is the name of the spacecraft that first successfully landed on Mars?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 50, "question": "What is the name of the phenomenon where a planet appears to reverse its usual direction of motion across the sky?", "answer": "Retrograde motion", "options": ["Parallax", "Retrograde motion", "Precession", "Libration"]},
-    {"id": 51, "question": "What is the name of the spacecraft that first orbited and studied the planet Venus?", "answer": "Mariner 2", "options": ["Voyager 1", "Messenger", "Mariner 2", "Galileo"]},
-    {"id": 52, "question": "What is the name of the spacecraft that successfully landed on Saturn's moon Titan?", "answer": "Huygens", "options": ["Cassini", "Voyager 2", "Huygens", "Rosetta"]},
-    {"id": 53, "question": "What is the name of the star system closest to the solar system?", "answer": "Alpha Centauri", "options": ["Sirius", "Alpha Centauri", "Proxima Centauri", "Barnard's Star"]},
-    {"id": 54, "question": "What is the name of the spacecraft that studied the planet Jupiter and its moons, particularly Europa, for signs of life?", "answer": "Galileo", "options": ["Voyager 2", "New Horizons", "Galileo", "Cassini"]},
-    {"id": 55, "question": "What is the name of the spacecraft launched by NASA to study the planet Saturn and its moons?", "answer": "Cassini", "options": ["Voyager 2", "New Horizons", "Galileo", "Cassini"]},
-    {"id": 56, "question": "What is the name of the spacecraft that made the first successful flyby of Pluto?", "answer": "New Horizons", "options": ["Rosetta", "Voyager 2", "New Horizons", "Cassini"]},
-    {"id": 57, "question": "What is the name of the point in a planet's orbit where it is farthest from the Sun?", "answer": "Aphelion", "options": ["Perihelion", "Aphelion", "Ecliptic", "Equinox"]},
-    {"id": 58, "question": "What is the name of the galaxy nearest to the Milky Way?", "answer": "Andromeda", "options": ["Triangulum", "Sombrero", "Andromeda", "Magellanic Clouds"]},
-    {"id": 59, "question": "What is the name of the spacecraft launched by the Soviet Union to study Venus?", "answer": "Venera", "options": ["Vostok", "Soyuz", "Venera", "Luna"]},
-    {"id": 60, "question": "What is the name of the telescope that was launched into orbit in 1990 and has provided some of the most detailed images of distant galaxies?", "answer": "Hubble Space Telescope", "options": ["James Webb Space Telescope", "Spitzer Space Telescope", "Chandra X-ray Observatory", "Hubble Space Telescope"]},
-    {"id": 61, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 62, "question": "What is the name of the spacecraft that orbited and studied the asteroid Vesta and the dwarf planet Ceres?", "answer": "Dawn", "options": ["Rosetta", "Voyager 2", "Dawn", "Cassini"]},
-    {"id": 63, "question": "What is the name of the region in the solar system beyond the orbit of Neptune, where many comets originate?", "answer": "Kuiper Belt", "options": ["Asteroid belt", "Oort Cloud", "Kuiper Belt", "Scattered disc"]},
-    {"id": 64, "question": "What is the name of the spacecraft that provided the first close-up images of Pluto and its moons?", "answer": "New Horizons", "options": ["Rosetta", "Voyager 2", "New Horizons", "Cassini"]},
-    {"id": 65, "question": "What is the name of the phenomenon where a star explodes in a massive burst of light and energy?", "answer": "Supernova", "options": ["Nebula", "Nova", "Supernova", "Pulsar"]},
-    {"id": 66, "question": "What is the name of the spacecraft that made the first successful soft landing on the Moon?", "answer": "Luna 9", "options": ["Apollo 11", "Venera 7", "Luna 9", "Ranger 7"]},
-    {"id": 67, "question": "What is the name of the phenomenon where a planet passes between its parent star and the observer, reducing the apparent brightness of the star?", "answer": "Transit", "options": ["Eclipse", "Occultation", "Transit", "Conjunction"]},
-    {"id": 68, "question": "What is the name of the spacecraft that made the first successful landing on Venus?", "answer": "Venera 7", "options": ["Mariner 10", "Venera 7", "Viking 1", "Magellan"]},
-    {"id": 69, "question": "What is the name of the spacecraft that made the first successful flyby of Jupiter and Saturn?", "answer": "Pioneer 11", "options": ["Voyager 1", "Pioneer 11", "New Horizons", "Cassini"]},
-    {"id": 70, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 71, "question": "What is the name of the largest moon of Neptune?", "answer": "Triton", "options": ["Charon", "Triton", "Nereid", "Proteus"]},
-    {"id": 72, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 73, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 74, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 75, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Viking 1", "options": ["Mars Pathfinder", "Venera 7", "Viking 1", "Curiosity"]},
-    {"id": 76, "question": "What is the name of the spacecraft that first landed humans on the Moon?", "answer": "Apollo 11", "options": ["Gemini 4", "Mercury 7", "Apollo 11", "Soyuz 11"]},
-    {"id": 77, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 78, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 79, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 80, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 81, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 82, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 83, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 84, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 85, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 86, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 87, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 88, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 89, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 90, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 91, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 92, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 93, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 94, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 95, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 96, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 97, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 98, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 99, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 100, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 101, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 102, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 103, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 104, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 105, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 106, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 107, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 108, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 109, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 110, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 111, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 112, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 113, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 114, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 115, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 116, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 117, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 118, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 119, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 120, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 121, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 122, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 123, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 124, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 125, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 126, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 127, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 128, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 129, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 130, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 131, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 132, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 133, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 134, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 135, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 136, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 137, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 138, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 139, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 140, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 141, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 142, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 143, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 144, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 145, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 146, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]},
-    {"id": 147, "question": "What is the name of the spacecraft that successfully landed on a comet in 2014?", "answer": "Philae", "options": ["Rosetta", "Cassini", "Philae", "Voyager 2"]},
-    {"id": 148, "question": "What is the name of the spacecraft that made the first successful landing on an asteroid?", "answer": "NEAR Shoemaker", "options": ["Hayabusa", "Rosetta", "NEAR Shoemaker", "Dawn"]},
-    {"id": 149, "question": "What is the name of the spacecraft that studied the planet Mercury?", "answer": "Messenger", "options": ["Mariner 10", "Messenger", "Venera 7", "Galileo"]},
-    {"id": 150, "question": "What is the name of the spacecraft that made the first successful landing on Mars?", "answer": "Mars Pathfinder", "options": ["Viking 1", "Mars Pathfinder", "Venera 7", "Curiosity"]}
+  {
+    "id": 1,
+    "question": "What is the name of the new programming language introduced by Google?",
+    "answer": "Carbon",
+    "options": ["Swift", "Kotlin", "Carbon", "TypeScript"]
+  },
+  {
+    "id": 2,
+    "question": "Which company developed the first graphical web browser?",
+    "answer": "Netscape",
+    "options": ["Microsoft", "Apple", "Netscape", "Google"]
+  },
+  {
+    "id": 3,
+    "question": "What is the name of Apple's first custom-made silicon chip for its computers?",
+    "answer": "M1",
+    "options": ["A12", "M1", "Snapdragon", "Ryzen"]
+  },
+  {
+    "id": 4,
+    "question": "What is the latest version of the USB standard released?",
+    "answer": "USB4",
+    "options": ["USB-C", "USB 3.1", "USB4", "USB 5.0"]
+  },
+  {
+    "id": 5,
+    "question": "Which technology company is known for developing TensorFlow?",
+    "answer": "Google",
+    "options": ["Apple", "Amazon", "Google", "Microsoft"]
+  },
+  {
+    "id": 6,
+    "question": "What is the term for a network attack that disrupts service by overwhelming the target?",
+    "answer": "DDoS attack",
+    "options": ["Phishing", "DDoS attack", "SQL Injection", "XSS"]
+  },
+  {
+    "id": 7,
+    "question": "What does the acronym 'HTTP' stand for?",
+    "answer": "Hypertext Transfer Protocol",
+    "options": [
+      "Hypertext Transfer Protocol",
+      "Hyperlink Text Process",
+      "Hyperlink Text Protocol",
+      "Hyper Text Processor"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which company is the primary developer of the Windows operating system?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Google", "Microsoft", "IBM"]
+  },
+  {
+    "id": 9,
+    "question": "What programming language is primarily used for developing iOS apps?",
+    "answer": "Swift",
+    "options": ["Java", "Swift", "C#", "JavaScript"]
+  },
+  {
+    "id": 10,
+    "question": "What is the name of the online platform for hosting and sharing code developed by Microsoft?",
+    "answer": "GitHub",
+    "options": ["GitLab", "SourceForge", "GitHub", "Bitbucket"]
+  },
+  {
+    "id": 11,
+    "question": "What does the acronym 'RAM' stand for?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Run Active Memory",
+      "Rapid Access Module"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which company launched the first commercially available smartphone?",
+    "answer": "IBM",
+    "options": ["Apple", "Samsung", "IBM", "Motorola"]
+  },
+  {
+    "id": 13,
+    "question": "What is the name of the operating system based on Linux and primarily used in Android devices?",
+    "answer": "Android OS",
+    "options": ["iOS", "Windows", "Android OS", "Tizen"]
+  },
+  {
+    "id": 14,
+    "question": "Which company developed the virtual assistant known as Alexa?",
+    "answer": "Amazon",
+    "options": ["Apple", "Google", "Amazon", "Microsoft"]
+  },
+  {
+    "id": 15,
+    "question": "What is the main language used to style web pages?",
+    "answer": "CSS",
+    "options": ["JavaScript", "HTML", "CSS", "PHP"]
+  },
+  {
+    "id": 16,
+    "question": "What is the name of the global navigation satellite system developed by the United States?",
+    "answer": "GPS",
+    "options": ["GLONASS", "GPS", "Galileo", "BeiDou"]
+  },
+  {
+    "id": 17,
+    "question": "What is the name of Google's operating system for smart home devices and wearables?",
+    "answer": "Wear OS",
+    "options": ["Tizen", "Wear OS", "HarmonyOS", "iOS"]
+  },
+  {
+    "id": 18,
+    "question": "Which company developed the first graphical operating system interface?",
+    "answer": "Apple",
+    "options": ["IBM", "Microsoft", "Apple", "Xerox"]
+  },
+  {
+    "id": 19,
+    "question": "What is the name of the most widely used language for machine learning?",
+    "answer": "Python",
+    "options": ["R", "Python", "Java", "Scala"]
+  },
+  {
+    "id": 20,
+    "question": "What does 'IoT' stand for?",
+    "answer": "Internet of Things",
+    "options": [
+      "Internet of Tasks",
+      "Internet of Things",
+      "Interlinking of Technology",
+      "Internet of Technology"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What year was the first iPhone released?",
+    "answer": "2007",
+    "options": ["2005", "2006", "2007", "2008"]
+  },
+  {
+    "id": 22,
+    "question": "Who is considered the co-founder of Apple along with Steve Jobs?",
+    "answer": "Steve Wozniak",
+    "options": ["Bill Gates", "Larry Page", "Steve Wozniak", "Elon Musk"]
+  },
+  {
+    "id": 23,
+    "question": "What does 'RAM' stand for?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Remote Access Memory",
+      "Rapid Access Memory"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What is the primary function of a GPU?",
+    "answer": "Rendering graphics",
+    "options": [
+      "Storing data",
+      "Rendering graphics",
+      "Processing audio",
+      "Handling network requests"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which company developed the Windows operating system?",
+    "answer": "Microsoft",
+    "options": ["Apple", "IBM", "Microsoft", "Google"]
+  },
+  {
+    "id": 26,
+    "question": "Which programming language is often used for AI and machine learning?",
+    "answer": "Python",
+    "options": ["Java", "Python", "C#", "Ruby"]
+  },
+  {
+    "id": 27,
+    "question": "What year was the World Wide Web introduced to the public?",
+    "answer": "1991",
+    "options": ["1989", "1991", "1993", "1995"]
+  },
+  {
+    "id": 28,
+    "question": "What is the name of Google's parent company?",
+    "answer": "Alphabet",
+    "options": ["Google LLC", "Alphabet", "Meta", "Microsoft"]
+  },
+  {
+    "id": 29,
+    "question": "What technology does cryptocurrency primarily rely on?",
+    "answer": "Blockchain",
+    "options": [
+      "Quantum computing",
+      "Blockchain",
+      "Machine learning",
+      "Virtual reality"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Which device is commonly used to input handwritten text into a computer?",
+    "answer": "Graphics tablet",
+    "options": ["Touchscreen", "Mouse", "Graphics tablet", "Trackpad"]
+  },
+  {
+    "id": 31,
+    "question": "Who invented the World Wide Web?",
+    "answer": "Tim Berners-Lee",
+    "options": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Mark Zuckerberg"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "What does 'HTTP' stand for?",
+    "answer": "HyperText Transfer Protocol",
+    "options": [
+      "HyperText Transmission Protocol",
+      "HyperText Transfer Protocol",
+      "HyperTransfer Text Protocol",
+      "HyperTransport Text Protocol"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Which company originally developed the Java programming language?",
+    "answer": "Sun Microsystems",
+    "options": ["Microsoft", "IBM", "Oracle", "Sun Microsystems"]
+  },
+  {
+    "id": 34,
+    "question": "Which programming language is primarily used for developing iOS apps?",
+    "answer": "Swift",
+    "options": ["Python", "Swift", "Java", "Kotlin"]
+  },
+  {
+    "id": 35,
+    "question": "What is the primary function of an SSD?",
+    "answer": "Storage",
+    "options": ["Memory", "Processing", "Storage", "Power management"]
+  },
+  {
+    "id": 36,
+    "question": "Which company is the main developer of Android?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Samsung", "Google"]
+  },
+  {
+    "id": 37,
+    "question": "What is the name of Apple's cloud storage service?",
+    "answer": "iCloud",
+    "options": ["Google Drive", "OneDrive", "iCloud", "Dropbox"]
+  },
+  {
+    "id": 38,
+    "question": "Which of these is a JavaScript framework?",
+    "answer": "React",
+    "options": ["Flask", "Django", "Ruby on Rails", "React"]
+  },
+  {
+    "id": 39,
+    "question": "What does 'IoT' stand for?",
+    "answer": "Internet of Things",
+    "options": [
+      "Internet of Technology",
+      "Internet of Things",
+      "Interconnection of Things",
+      "Integrated Operational Technology"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Which protocol is commonly used to secure online transactions?",
+    "answer": "HTTPS",
+    "options": ["FTP", "HTTP", "SMTP", "HTTPS"]
+  },
+  {
+    "id": 41,
+    "question": "What does 'CSS' stand for?",
+    "answer": "Cascading Style Sheets",
+    "options": [
+      "Computer Styling Syntax",
+      "Cascading Style Syntax",
+      "Cascading Style Sheets",
+      "Code Styling Sheets"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Which company owns LinkedIn?",
+    "answer": "Microsoft",
+    "options": ["Facebook", "Google", "Microsoft", "Twitter"]
+  },
+  {
+    "id": 43,
+    "question": "Which computer science concept is used to secure communications in VPNs?",
+    "answer": "Encryption",
+    "options": [
+      "Authentication",
+      "Data analysis",
+      "Encryption",
+      "Network segmentation"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What does the acronym 'LAN' stand for?",
+    "answer": "Local Area Network",
+    "options": [
+      "Long Area Network",
+      "Local Area Network",
+      "Large Area Network",
+      "Linked Access Network"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "What kind of software is Linux?",
+    "answer": "Operating System",
+    "options": [
+      "Word processor",
+      "Web browser",
+      "Operating System",
+      "Spreadsheet program"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "What is the purpose of CAPTCHA?",
+    "answer": "To verify human users",
+    "options": [
+      "To encrypt data",
+      "To verify human users",
+      "To monitor traffic",
+      "To compress images"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Which language is mainly used for web page structure?",
+    "answer": "HTML",
+    "options": ["HTML", "CSS", "JavaScript", "Python"]
+  },
+  {
+    "id": 48,
+    "question": "Which company developed the Android operating system?",
+    "answer": "Google",
+    "options": ["Apple", "Google", "Microsoft", "Nokia"]
+  },
+  {
+    "id": 49,
+    "question": "What is the primary purpose of an IP address?",
+    "answer": "To identify devices on a network",
+    "options": [
+      "To store files",
+      "To measure internet speed",
+      "To identify devices on a network",
+      "To connect to WiFi"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "What is Git commonly used for?",
+    "answer": "Version control",
+    "options": [
+      "Encryption",
+      "Database management",
+      "Version control",
+      "Networking"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "What does VPN stand for?",
+    "answer": "Virtual Private Network",
+    "options": [
+      "Virtual Protected Network",
+      "Verified Private Network",
+      "Virtual Personal Network",
+      "Virtual Private Network"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Which device allows wireless communication for computers?",
+    "answer": "Wi-Fi adapter",
+    "options": ["Router", "Wi-Fi adapter", "Modem", "Hard drive"]
+  },
+  {
+    "id": 53,
+    "question": "What is a byte composed of?",
+    "answer": "8 bits",
+    "options": ["4 bits", "8 bits", "16 bits", "32 bits"]
+  },
+  {
+    "id": 54,
+    "question": "Which company created the first microprocessor?",
+    "answer": "Intel",
+    "options": ["AMD", "Apple", "Intel", "IBM"]
+  },
+  {
+    "id": 55,
+    "question": "Which language is mainly used for data analysis?",
+    "answer": "Python",
+    "options": ["JavaScript", "Java", "Python", "PHP"]
+  },
+  {
+    "id": 56,
+    "question": "What is the name of Amazon's cloud platform?",
+    "answer": "AWS (Amazon Web Services)",
+    "options": ["Azure", "GCP", "AWS", "IBM Cloud"]
+  },
+  {
+    "id": 57,
+    "question": "What is commonly used to cool a computer's CPU?",
+    "answer": "Heatsink",
+    "options": ["Power supply", "Heatsink", "Motherboard", "Hard drive"]
+  },
+  {
+    "id": 58,
+    "question": "What is the purpose of an algorithm?",
+    "answer": "To solve a problem",
+    "options": [
+      "To design a database",
+      "To solve a problem",
+      "To format text",
+      "To monitor network traffic"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "What type of memory is volatile?",
+    "answer": "RAM",
+    "options": ["Hard disk", "RAM", "SSD", "ROM"]
+  },
+  {
+    "id": 60,
+    "question": "What does the command 'ping' test?",
+    "answer": "Network connectivity",
+    "options": [
+      "Battery life",
+      "System health",
+      "Network connectivity",
+      "CPU speed"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "What is the term for creating a copy of data to prevent loss?",
+    "answer": "Backup",
+    "options": ["Cloning", "Encryption", "Backup", "Recovery"]
+  },
+  {
+    "id": 62,
+    "question": "What does HDMI stand for?",
+    "answer": "High-Definition Multimedia Interface",
+    "options": [
+      "High-Data Management Interface",
+      "High-Definition Multimedia Interface",
+      "Hard Disk Media Interface",
+      "High Data Multimedia Input"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "What kind of device is a router?",
+    "answer": "Networking device",
+    "options": [
+      "Storage device",
+      "Input device",
+      "Output device",
+      "Networking device"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Which symbol is used for comments in Python?",
+    "answer": "#",
+    "options": ["#", "//", "/*", "%"]
+  },
+  {
+    "id": 65,
+    "question": "What is a common type of malware?",
+    "answer": "Virus",
+    "options": ["Software patch", "Firewall", "Virus", "Operating system"]
+  },
+  {
+    "id": 66,
+    "question": "What does 'SSD' stand for?",
+    "answer": "Solid State Drive",
+    "options": [
+      "Static Storage Device",
+      "Solid Storage Disk",
+      "Solid State Drive",
+      "Secure Storage Drive"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Who is known for co-founding Microsoft?",
+    "answer": "Bill Gates",
+    "options": ["Larry Page", "Steve Wozniak", "Bill Gates", "Mark Zuckerberg"]
+  },
+  {
+    "id": 68,
+    "question": "What kind of network connects computers within a small area, like an office?",
+    "answer": "LAN",
+    "options": ["WAN", "MAN", "LAN", "PAN"]
+  },
+  {
+    "id": 69,
+    "question": "What is the primary purpose of an API?",
+    "answer": "To allow applications to interact",
+    "options": [
+      "To store data",
+      "To process data",
+      "To allow applications to interact",
+      "To secure networks"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Which device is used to capture images?",
+    "answer": "Camera",
+    "options": ["Microphone", "Scanner", "Printer", "Camera"]
+  },
+  {
+    "id": 71,
+    "question": "Which website is known for video streaming?",
+    "answer": "YouTube",
+    "options": ["Twitter", "Instagram", "YouTube", "Google"]
+  },
+  {
+    "id": 72,
+    "question": "Which programming language is used for statistical analysis?",
+    "answer": "R",
+    "options": ["Java", "C#", "Python", "R"]
+  },
+  {
+    "id": 73,
+    "question": "What is the main programming language used for iOS?",
+    "answer": "Swift",
+    "options": ["Python", "Java", "Objective-C", "Swift"]
+  },
+  {
+    "id": 74,
+    "question": "What year did the first version of Windows release?",
+    "answer": "1985",
+    "options": ["1985", "1990", "1995", "2000"]
+  },
+  {
+    "id": 75,
+    "question": "What does SMTP stand for?",
+    "answer": "Simple Mail Transfer Protocol",
+    "options": [
+      "Secure Mail Transfer Protocol",
+      "Standard Mail Text Protocol",
+      "Simple Mail Transfer Protocol",
+      "Standard Messaging Transfer Protocol"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Which company developed the personal assistant 'Siri'?",
+    "answer": "Apple",
+    "options": ["Google", "Microsoft", "Amazon", "Apple"]
+  },
+  {
+    "id": 77,
+    "question": "What is the name of Microsoft's cloud service?",
+    "answer": "Azure",
+    "options": ["AWS", "GCP", "OneDrive", "Azure"]
+  },
+  {
+    "id": 78,
+    "question": "Which search engine was founded by Sergey Brin and Larry Page?",
+    "answer": "Google",
+    "options": ["Bing", "Yahoo", "Google", "DuckDuckGo"]
+  },
+  {
+    "id": 79,
+    "question": "What does ASCII stand for?",
+    "answer": "American Standard Code for Information Interchange",
+    "options": [
+      "American System Code for International Information",
+      "American Standard Code for Information Interchange",
+      "Advanced System Coding Information Index",
+      "American System Code for Interactive Information"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "What is a terabyte?",
+    "answer": "A unit of digital storage",
+    "options": [
+      "A programming language",
+      "A unit of processing power",
+      "A unit of digital storage",
+      "A type of network"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Which company developed the popular game 'Minecraft'?",
+    "answer": "Mojang",
+    "options": ["Epic Games", "Mojang", "Valve", "Blizzard"]
+  },
+  {
+    "id": 82,
+    "question": "What is the term for a software bug that affects security?",
+    "answer": "Vulnerability",
+    "options": ["Glitch", "Error", "Vulnerability", "Lag"]
+  },
+  {
+    "id": 83,
+    "question": "What is the purpose of a firewall?",
+    "answer": "To protect a network from unauthorized access",
+    "options": [
+      "To improve internet speed",
+      "To store data",
+      "To protect a network from unauthorized access",
+      "To manage passwords"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Which language is often used for system programming?",
+    "answer": "C",
+    "options": ["HTML", "C", "JavaScript", "SQL"]
+  },
+  {
+    "id": 85,
+    "question": "What does the acronym USB stand for?",
+    "answer": "Universal Serial Bus",
+    "options": [
+      "Universal System Bus",
+      "Universal Storage Bus",
+      "Universal Serial Bus",
+      "Unified System Block"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "What is the name of the language primarily used to style web pages?",
+    "answer": "CSS",
+    "options": ["HTML", "CSS", "JavaScript", "PHP"]
+  },
+  {
+    "id": 87,
+    "question": "Which database language is used to manage relational databases?",
+    "answer": "SQL",
+    "options": ["HTML", "Python", "Java", "SQL"]
+  },
+  {
+    "id": 88,
+    "question": "What does 'URL' stand for?",
+    "answer": "Uniform Resource Locator",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Link",
+      "Unique Reference Link",
+      "Universal Retrieval Locator"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Which device is commonly used for data storage?",
+    "answer": "Hard drive",
+    "options": ["CPU", "Hard drive", "Motherboard", "Graphics card"]
+  },
+  {
+    "id": 90,
+    "question": "Which type of malware disguises itself as legitimate software?",
+    "answer": "Trojan",
+    "options": ["Virus", "Trojan", "Worm", "Ransomware"]
+  },
+  {
+    "id": 91,
+    "question": "Which programming language is designed specifically for web scripting?",
+    "answer": "JavaScript",
+    "options": ["C++", "Python", "JavaScript", "Ruby"]
+  },
+  {
+    "id": 92,
+    "question": "What is the purpose of a CPU in a computer?",
+    "answer": "To process instructions",
+    "options": [
+      "To store data",
+      "To process instructions",
+      "To manage network traffic",
+      "To display images"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "What is commonly used to store long-term data on computers?",
+    "answer": "Hard drive",
+    "options": ["RAM", "CPU", "Hard drive", "GPU"]
+  },
+  {
+    "id": 94,
+    "question": "Which company developed the Chrome browser?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Mozilla", "Google"]
+  },
+  {
+    "id": 95,
+    "question": "What does SSL stand for?",
+    "answer": "Secure Sockets Layer",
+    "options": [
+      "Secure Systems Layer",
+      "Secure Sockets Layer",
+      "System Security Lock",
+      "Standard Secure Layer"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "What type of memory is used for the BIOS in a computer?",
+    "answer": "ROM",
+    "options": ["RAM", "ROM", "SSD", "Hard drive"]
+  },
+  {
+    "id": 97,
+    "question": "What is 'phishing'?",
+    "answer": "A type of online scam",
+    "options": [
+      "A form of data storage",
+      "A network protocol",
+      "A type of online scam",
+      "A programming language"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Which company is known for creating the video game console 'PlayStation'?",
+    "answer": "Sony",
+    "options": ["Microsoft", "Nintendo", "Sony", "Sega"]
+  },
+  {
+    "id": 99,
+    "question": "What does GPU stand for?",
+    "answer": "Graphics Processing Unit",
+    "options": [
+      "General Processing Unit",
+      "Graphics Processing Unit",
+      "Global Processing Unit",
+      "Gigabyte Processing Unit"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Which programming language is known for its simplicity and readability?",
+    "answer": "Python",
+    "options": ["Java", "Python", "C++", "Perl"]
+  },
+  {
+    "id": 101,
+    "question": "What does IoT stand for?",
+    "answer": "Internet of Things",
+    "options": [
+      "Internet of Tools",
+      "Internet of Things",
+      "Innovation of Technology",
+      "Instance of Technology"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "What is the purpose of an API?",
+    "answer": "To allow different software to communicate",
+    "options": [
+      "To increase processing power",
+      "To store data",
+      "To enhance graphics",
+      "To allow different software to communicate"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Which company developed the Android operating system?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Google", "IBM"]
+  },
+  {
+    "id": 104,
+    "question": "Which term describes unauthorized access to a network?",
+    "answer": "Hacking",
+    "options": ["Cracking", "Hacking", "Breach", "Spoofing"]
+  },
+  {
+    "id": 105,
+    "question": "Which of these is a popular content management system?",
+    "answer": "WordPress",
+    "options": ["WordPress", "Excel", "Oracle", "Photoshop"]
+  },
+  {
+    "id": 106,
+    "question": "Which technology is used to create virtual reality?",
+    "answer": "VR headsets",
+    "options": ["Smartphones", "VR headsets", "Desktops", "Smart TVs"]
+  },
+  {
+    "id": 107,
+    "question": "What is the purpose of cookies on websites?",
+    "answer": "To store user data",
+    "options": [
+      "To increase speed",
+      "To improve design",
+      "To store user data",
+      "To increase storage"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Which protocol is used to send email?",
+    "answer": "SMTP",
+    "options": ["FTP", "SMTP", "HTTP", "IMAP"]
+  },
+  {
+    "id": 109,
+    "question": "Which programming language is often used for AI?",
+    "answer": "Python",
+    "options": ["Java", "Ruby", "Python", "HTML"]
+  },
+  {
+    "id": 110,
+    "question": "What is the purpose of DNS?",
+    "answer": "To translate domain names to IP addresses",
+    "options": [
+      "To translate domain names to IP addresses",
+      "To create firewalls",
+      "To encrypt data",
+      "To manage data storage"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Which social media platform was founded by Mark Zuckerberg?",
+    "answer": "Facebook",
+    "options": ["Twitter", "LinkedIn", "Instagram", "Facebook"]
+  },
+  {
+    "id": 112,
+    "question": "What does the 'S' in HTTPS stand for?",
+    "answer": "Secure",
+    "options": ["Server", "Secure", "Session", "Standard"]
+  },
+  {
+    "id": 113,
+    "question": "What is the term for data that describes other data?",
+    "answer": "Metadata",
+    "options": ["Cache", "Metadata", "Cookies", "Cache"]
+  },
+  {
+    "id": 114,
+    "question": "What is the main function of RAM?",
+    "answer": "To temporarily store data",
+    "options": [
+      "To permanently store data",
+      "To display graphics",
+      "To temporarily store data",
+      "To process code"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Which of these is a common wireless communication standard?",
+    "answer": "Bluetooth",
+    "options": ["Fiber optic", "USB", "Ethernet", "Bluetooth"]
+  },
+  {
+    "id": 116,
+    "question": "What does the 'C' in CPU stand for?",
+    "answer": "Central",
+    "options": ["Central", "Core", "Control", "Compute"]
+  },
+  {
+    "id": 117,
+    "question": "Which of these is a cloud storage provider?",
+    "answer": "Dropbox",
+    "options": ["Microsoft Word", "Adobe", "Dropbox", "Linux"]
+  },
+  {
+    "id": 118,
+    "question": "Which command is used to copy files in Linux?",
+    "answer": "cp",
+    "options": ["copy", "cp", "mv", "rm"]
+  },
+  {
+    "id": 119,
+    "question": "What is the purpose of a VPN?",
+    "answer": "To provide secure access to a private network",
+    "options": [
+      "To increase download speed",
+      "To provide secure access to a private network",
+      "To monitor system performance",
+      "To manage storage"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Which device is used to connect to the internet?",
+    "answer": "Modem",
+    "options": ["Monitor", "Modem", "Mouse", "Keyboard"]
+  },
+  {
+    "id": 121,
+    "question": "What does 'PHP' stand for?",
+    "answer": "Hypertext Preprocessor",
+    "options": [
+      "Pre Hypertext Processor",
+      "Protocol Hypertext Processing",
+      "Hypertext Preprocessor",
+      "Personal Hypertext Processor"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "What is 'malware'?",
+    "answer": "Malicious software",
+    "options": [
+      "Malicious software",
+      "A type of hardware",
+      "A coding language",
+      "A network tool"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Which operating system is open-source?",
+    "answer": "Linux",
+    "options": ["macOS", "Windows", "Linux", "iOS"]
+  },
+  {
+    "id": 124,
+    "question": "What does 'PDF' stand for?",
+    "answer": "Portable Document Format",
+    "options": [
+      "Portable Document Format",
+      "Public Data File",
+      "Page Data Format",
+      "Print Design Format"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "What does HTML stand for?",
+    "answer": "Hypertext Markup Language",
+    "options": [
+      "Hyperlink Markup Language",
+      "Hypertext Markup Language",
+      "Hypertext Machine Language",
+      "Hyperlink Machine Language"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "What is the main function of a router?",
+    "answer": "To route data between networks",
+    "options": [
+      "To increase speed",
+      "To monitor performance",
+      "To store data",
+      "To route data between networks"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Which company created the Xbox gaming console?",
+    "answer": "Microsoft",
+    "options": ["Sony", "Nintendo", "Microsoft", "Sega"]
+  },
+  {
+    "id": 128,
+    "question": "Which of these is a common operating system for smartphones?",
+    "answer": "Android",
+    "options": ["Windows", "Linux", "macOS", "Android"]
+  },
+  {
+    "id": 129,
+    "question": "What is cloud computing?",
+    "answer": "Storing and accessing data over the internet",
+    "options": [
+      "A type of database",
+      "A programming language",
+      "Storing and accessing data over the internet",
+      "A type of hardware"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Which language is commonly used for backend web development?",
+    "answer": "PHP",
+    "options": ["HTML", "CSS", "JavaScript", "PHP"]
+  },
+  {
+    "id": 131,
+    "question": "What is the purpose of a web browser?",
+    "answer": "To access and display websites",
+    "options": [
+      "To edit photos",
+      "To access and display websites",
+      "To manage data storage",
+      "To write code"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Which technology is used for mobile payments?",
+    "answer": "NFC",
+    "options": ["VPN", "DNS", "NFC", "Wi-Fi"]
+  },
+  {
+    "id": 133,
+    "question": "What does RAM stand for?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Reliable Access Memory",
+      "Register Access Memory"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Which company is known for the iPhone?",
+    "answer": "Apple",
+    "options": ["Samsung", "Apple", "Google", "Microsoft"]
+  },
+  {
+    "id": 135,
+    "question": "Which language is widely used for frontend development?",
+    "answer": "JavaScript",
+    "options": ["Python", "C++", "JavaScript", "PHP"]
+  },
+  {
+    "id": 136,
+    "question": "What is SSL used for?",
+    "answer": "Encrypting data on websites",
+    "options": [
+      "Encrypting data on websites",
+      "Increasing website speed",
+      "Creating website layouts",
+      "Storing data"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Which of these is a popular social media platform?",
+    "answer": "Twitter",
+    "options": ["Twitter", "Netflix", "Spotify", "Zoom"]
+  },
+  {
+    "id": 138,
+    "question": "What does the 'B' in 'BIOS' stand for?",
+    "answer": "Basic",
+    "options": ["Basic", "Binary", "Buffer", "Bus"]
+  },
+  {
+    "id": 139,
+    "question": "Which type of application runs in a web browser?",
+    "answer": "Web application",
+    "options": [
+      "Desktop application",
+      "Mobile application",
+      "Web application",
+      "Server application"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Which component renders images in a computer?",
+    "answer": "GPU",
+    "options": ["CPU", "GPU", "RAM", "SSD"]
+  },
+  {
+    "id": 141,
+    "question": "What is 'spam'?",
+    "answer": "Unwanted or unsolicited messages",
+    "options": [
+      "A coding language",
+      "A hardware component",
+      "Unwanted or unsolicited messages",
+      "A networking tool"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "What is the term for saving files on a remote server?",
+    "answer": "Cloud storage",
+    "options": [
+      "Cloud storage",
+      "Data mining",
+      "Server clustering",
+      "Data caching"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Which device is used to input data?",
+    "answer": "Keyboard",
+    "options": ["Monitor", "Keyboard", "Printer", "Speaker"]
+  },
+  {
+    "id": 144,
+    "question": "What is SQL used for?",
+    "answer": "Managing databases",
+    "options": [
+      "Creating websites",
+      "Managing databases",
+      "Designing graphics",
+      "Encrypting files"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Which company developed the Mac operating system?",
+    "answer": "Apple",
+    "options": ["Apple", "Microsoft", "IBM", "Oracle"]
+  },
+  {
+    "id": 146,
+    "question": "What does CPU stand for?",
+    "answer": "Central Processing Unit",
+    "options": [
+      "Central Programming Unit",
+      "Computer Processing Unit",
+      "Central Processing Unit",
+      "Control Processing Unit"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "What is the primary language used to build iOS apps?",
+    "answer": "Swift",
+    "options": ["Swift", "Java", "Python", "Ruby"]
+  },
+  {
+    "id": 148,
+    "question": "Which protocol is used for secure internet browsing?",
+    "answer": "HTTPS",
+    "options": ["HTTP", "FTP", "SMTP", "HTTPS"]
+  },
+  {
+    "id": 149,
+    "question": "Which of these is an antivirus software?",
+    "answer": "Norton",
+    "options": ["Excel", "Photoshop", "Norton", "Linux"]
+  },
+  {
+    "id": 150,
+    "question": "Which component is considered the 'brain' of a computer?",
+    "answer": "CPU",
+    "options": ["RAM", "GPU", "CPU", "Motherboard"]
+  },
+  {
+    "id": 151,
+    "question": "What does GUI stand for?",
+    "answer": "Graphical User Interface",
+    "options": [
+      "General User Interface",
+      "Graphical User Interface",
+      "Generated User Interface",
+      "Grid User Interface"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Which company developed the Windows operating system?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Google", "Microsoft", "IBM"]
+  },
+  {
+    "id": 153,
+    "question": "What does USB stand for?",
+    "answer": "Universal Serial Bus",
+    "options": [
+      "Universal Serial Bus",
+      "Unified Serial Base",
+      "Universal Service Bus",
+      "Universal Signal Base"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "What is the main language used for Android development?",
+    "answer": "Java",
+    "options": ["JavaScript", "Python", "Java", "Swift"]
+  },
+  {
+    "id": 155,
+    "question": "Which company created the PlayStation console?",
+    "answer": "Sony",
+    "options": ["Microsoft", "Sony", "Nintendo", "Sega"]
+  },
+  {
+    "id": 156,
+    "question": "What does VPN stand for?",
+    "answer": "Virtual Private Network",
+    "options": [
+      "Virtual Protected Network",
+      "Virtual Private Network",
+      "Visual Private Network",
+      "Verified Private Network"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Which protocol is used to retrieve email?",
+    "answer": "IMAP",
+    "options": ["FTP", "SMTP", "IMAP", "HTTPS"]
+  },
+  {
+    "id": 158,
+    "question": "What is HTML primarily used for?",
+    "answer": "Creating web pages",
+    "options": [
+      "Programming games",
+      "Creating web pages",
+      "Data analysis",
+      "Video editing"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "What is the primary use of JavaScript?",
+    "answer": "Web development",
+    "options": [
+      "Game development",
+      "Data analysis",
+      "Mobile apps",
+      "Web development"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Which language is commonly used for iOS app development?",
+    "answer": "Swift",
+    "options": ["JavaScript", "Python", "Java", "Swift"]
+  },
+  {
+    "id": 161,
+    "question": "Which company developed the first smartphone?",
+    "answer": "IBM",
+    "options": ["Apple", "IBM", "Nokia", "Samsung"]
+  },
+  {
+    "id": 162,
+    "question": "What is open-source software?",
+    "answer": "Software with source code freely available",
+    "options": [
+      "Software that is free to download",
+      "Software with source code freely available",
+      "Software with a paid license",
+      "Software that is unsupported"
+    ]
+  },
+  {
+    "id": 163,
+    "question": "What is the primary language used for data science?",
+    "answer": "Python",
+    "options": ["Ruby", "Python", "JavaScript", "HTML"]
+  },
+  {
+    "id": 164,
+    "question": "What does CSS stand for?",
+    "answer": "Cascading Style Sheets",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Styling Sheets",
+      "Custom Style Scripts",
+      "Creative Style Sheets"
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Which technology is often used for big data processing?",
+    "answer": "Hadoop",
+    "options": ["Photoshop", "Hadoop", "MySQL", "AutoCAD"]
+  },
+  {
+    "id": 166,
+    "question": "What is the function of a firewall?",
+    "answer": "To block unauthorized access to a network",
+    "options": [
+      "To speed up the network",
+      "To block unauthorized access to a network",
+      "To monitor performance",
+      "To store data"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "Which company is known for cloud computing services like AWS?",
+    "answer": "Amazon",
+    "options": ["Google", "Apple", "Amazon", "Microsoft"]
+  },
+  {
+    "id": 168,
+    "question": "What is the term for adjusting code to improve performance?",
+    "answer": "Optimization",
+    "options": ["Debugging", "Refactoring", "Optimization", "Versioning"]
+  },
+  {
+    "id": 169,
+    "question": "Which software is widely used for graphic design?",
+    "answer": "Adobe Photoshop",
+    "options": ["Adobe Illustrator", "CorelDRAW", "Adobe Photoshop", "Inkscape"]
+  },
+  {
+    "id": 170,
+    "question": "What does SQL stand for?",
+    "answer": "Structured Query Language",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Language",
+      "Secure Query Language"
+    ]
+  },
+  {
+    "id": 171,
+    "question": "What is the primary function of a hard drive?",
+    "answer": "To store data",
+    "options": [
+      "To increase speed",
+      "To store data",
+      "To process graphics",
+      "To connect to the internet"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "What is 'phishing'?",
+    "answer": "A form of cyber attack to steal information",
+    "options": [
+      "A way to delete files",
+      "A form of cyber attack to steal information",
+      "A method of file encryption",
+      "A coding error"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "Which of these is a search engine?",
+    "answer": "Google",
+    "options": ["Amazon", "Twitter", "Google", "Facebook"]
+  },
+  {
+    "id": 174,
+    "question": "What is the primary function of an SSD?",
+    "answer": "To store data",
+    "options": [
+      "To improve speed",
+      "To store data",
+      "To process code",
+      "To connect devices"
+    ]
+  },
+  {
+    "id": 175,
+    "question": "Which language is known for web styling?",
+    "answer": "CSS",
+    "options": ["HTML", "Java", "CSS", "Python"]
+  },
+  {
+    "id": 176,
+    "question": "What does the 'F' in FPGA stand for?",
+    "answer": "Field",
+    "options": ["Fast", "Flexible", "Field", "Function"]
+  },
+  {
+    "id": 177,
+    "question": "What is the purpose of RAID?",
+    "answer": "To store data redundantly",
+    "options": [
+      "To create a virtual machine",
+      "To store data redundantly",
+      "To optimize graphics",
+      "To increase CPU speed"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "What is the most commonly used Linux command to change directories?",
+    "answer": "cd",
+    "options": ["cp", "rm", "cd", "mv"]
+  },
+  {
+    "id": 179,
+    "question": "What is the maximum file size for FAT32?",
+    "answer": "4GB",
+    "options": ["2GB", "4GB", "8GB", "16GB"]
+  },
+  {
+    "id": 180,
+    "question": "What does SaaS stand for?",
+    "answer": "Software as a Service",
+    "options": [
+      "Service as a Software",
+      "Software as a Service",
+      "System as a Software",
+      "Service and Software"
+    ]
+  },
+  {
+    "id": 181,
+    "question": "Which company developed the Pixel smartphone?",
+    "answer": "Google",
+    "options": ["Apple", "Microsoft", "Samsung", "Google"]
+  },
+  {
+    "id": 182,
+    "question": "What is the purpose of DNS?",
+    "answer": "To map domain names to IP addresses",
+    "options": [
+      "To manage emails",
+      "To map domain names to IP addresses",
+      "To encrypt data",
+      "To monitor performance"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "What is the primary purpose of HTML?",
+    "answer": "To create the structure of web pages",
+    "options": [
+      "To create apps",
+      "To encrypt data",
+      "To style web pages",
+      "To create the structure of web pages"
+    ]
+  },
+  {
+    "id": 184,
+    "question": "What does JPEG stand for?",
+    "answer": "Joint Photographic Experts Group",
+    "options": [
+      "Joint Photographic Experts Group",
+      "Java Platform Enterprise Graphics",
+      "Joint Pixel Editing Group",
+      "Java Picture Editing Graphics"
+    ]
+  },
+  {
+    "id": 185,
+    "question": "Which company manufactures Surface devices?",
+    "answer": "Microsoft",
+    "options": ["Apple", "Samsung", "Sony", "Microsoft"]
+  },
+  {
+    "id": 186,
+    "question": "Which programming language is mainly used for statistical computing?",
+    "answer": "R",
+    "options": ["Python", "Java", "R", "SQL"]
+  },
+  {
+    "id": 187,
+    "question": "What is the primary function of Git?",
+    "answer": "Version control",
+    "options": [
+      "Data storage",
+      "Game development",
+      "Graphics rendering",
+      "Version control"
+    ]
+  },
+  {
+    "id": 188,
+    "question": "Which device captures and digitizes images?",
+    "answer": "Scanner",
+    "options": ["Printer", "Scanner", "Monitor", "Projector"]
+  },
+  {
+    "id": 189,
+    "question": "What does ISP stand for?",
+    "answer": "Internet Service Provider",
+    "options": [
+      "Internet Signal Provider",
+      "Internet Service Provider",
+      "Internal System Processor",
+      "Internet Supply Point"
+    ]
+  },
+  {
+    "id": 190,
+    "question": "What is an SSL certificate used for?",
+    "answer": "Encrypting web traffic",
+    "options": [
+      "Creating web pages",
+      "Storing data",
+      "Encrypting web traffic",
+      "Designing graphics"
+    ]
+  },
+  {
+    "id": 191,
+    "question": "What does FTP stand for?",
+    "answer": "File Transfer Protocol",
+    "options": [
+      "File Tracking Program",
+      "File Transfer Protocol",
+      "File Transport Program",
+      "Fast Transfer Protocol"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "Which cloud service is provided by Microsoft?",
+    "answer": "Azure",
+    "options": ["iCloud", "AWS", "Dropbox", "Azure"]
+  },
+  {
+    "id": 193,
+    "question": "Which device outputs visual information?",
+    "answer": "Monitor",
+    "options": ["Keyboard", "Mouse", "Monitor", "Microphone"]
+  },
+  {
+    "id": 194,
+    "question": "What is the purpose of a router?",
+    "answer": "To direct data between networks",
+    "options": [
+      "To store data",
+      "To process data",
+      "To direct data between networks",
+      "To encrypt data"
+    ]
+  },
+  {
+    "id": 195,
+    "question": "What is CSS used for?",
+    "answer": "Styling web pages",
+    "options": [
+      "Structuring web pages",
+      "Programming apps",
+      "Styling web pages",
+      "Database management"
+    ]
+  },
+  {
+    "id": 196,
+    "question": "Which language is used primarily for AI development?",
+    "answer": "Python",
+    "options": ["Java", "HTML", "CSS", "Python"]
+  },
+  {
+    "id": 197,
+    "question": "What is the purpose of a proxy server?",
+    "answer": "To act as an intermediary for requests",
+    "options": [
+      "To improve CPU performance",
+      "To store data",
+      "To act as an intermediary for requests",
+      "To process graphics"
+    ]
+  },
+  {
+    "id": 198,
+    "question": "What does RAM stand for?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Random Allocation Memory",
+      "Random Access Memory",
+      "Rapid Access Module",
+      "Read Access Module"
+    ]
+  },
+  {
+    "id": 199,
+    "question": "Which company created the iPhone?",
+    "answer": "Apple",
+    "options": ["Apple", "Samsung", "Nokia", "Sony"]
+  },
+  {
+    "id": 200,
+    "question": "What does LAN stand for?",
+    "answer": "Local Area Network",
+    "options": [
+      "Local Area Network",
+      "Large Area Network",
+      "Linked Access Network",
+      "Light Access Network"
+    ]
+  },
+  {
+    "id": 201,
+    "question": "Which data type is used for true/false values?",
+    "answer": "Boolean",
+    "options": ["Integer", "String", "Boolean", "Float"]
+  },
+  {
+    "id": 202,
+    "question": "Which company owns the Android OS?",
+    "answer": "Google",
+    "options": ["Apple", "Google", "Microsoft", "Samsung"]
+  },
+  {
+    "id": 203,
+    "question": "What does BIOS stand for?",
+    "answer": "Basic Input/Output System",
+    "options": [
+      "Basic Information Online System",
+      "Basic Input/Output System",
+      "Binary Input Output System",
+      "Built-In Operating System"
+    ]
+  },
+  {
+    "id": 204,
+    "question": "Which of these is a primary memory?",
+    "answer": "RAM",
+    "options": ["RAM", "Hard drive", "Flash drive", "CD-ROM"]
+  },
+  {
+    "id": 205,
+    "question": "Which type of database is MySQL?",
+    "answer": "Relational",
+    "options": ["Non-relational", "Relational", "Distributed", "File-based"]
+  },
+  {
+    "id": 206,
+    "question": "Which coding language is commonly used for automation?",
+    "answer": "Python",
+    "options": ["JavaScript", "Python", "HTML", "CSS"]
+  },
+  {
+    "id": 207,
+    "question": "What is HTTP used for?",
+    "answer": "Transferring web pages",
+    "options": [
+      "Encrypting data",
+      "Storing images",
+      "Transferring web pages",
+      "Processing video"
+    ]
+  },
+  {
+    "id": 208,
+    "question": "What is the purpose of cookies?",
+    "answer": "To store user data for websites",
+    "options": [
+      "To enhance security",
+      "To track software versions",
+      "To store user data for websites",
+      "To display ads"
+    ]
+  },
+  {
+    "id": 209,
+    "question": "Which device is used to record sound?",
+    "answer": "Microphone",
+    "options": ["Speaker", "Microphone", "Headphones", "Projector"]
+  },
+  {
+    "id": 210,
+    "question": "What is the maximum number of questions in this list?",
+    "answer": "250",
+    "options": ["50", "150", "250", "300"]
+  },
+  {
+    "id": 211,
+    "question": "What does 'HTTP' stand for?",
+    "answer": "Hypertext Transfer Protocol",
+    "options": [
+      "Hypertext Transport Protocol",
+      "Hypertext Transfer Protocol",
+      "Hyperlink Transfer Protocol",
+      "Hypertext Translation Protocol"
+    ]
+  },
+  {
+    "id": 212,
+    "question": "What is the primary purpose of a firewall?",
+    "answer": "To block unauthorized access to a network",
+    "options": [
+      "To speed up internet connection",
+      "To monitor traffic",
+      "To block unauthorized access to a network",
+      "To encrypt data"
+    ]
+  },
+  {
+    "id": 213,
+    "question": "What does 'URL' stand for?",
+    "answer": "Uniform Resource Locator",
+    "options": [
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Uniform Resource Link",
+      "Universal Resource Link"
+    ]
+  },
+  {
+    "id": 214,
+    "question": "What is the main use of a router?",
+    "answer": "To connect multiple networks",
+    "options": [
+      "To connect computers to a printer",
+      "To connect multiple networks",
+      "To store data",
+      "To manage software updates"
+    ]
+  },
+  {
+    "id": 215,
+    "question": "Which programming language is primarily used for web development?",
+    "answer": "JavaScript",
+    "options": ["C++", "Java", "Python", "JavaScript"]
+  },
+  {
+    "id": 216,
+    "question": "What is a database?",
+    "answer": "A structured collection of data",
+    "options": [
+      "A program for calculations",
+      "A structured collection of data",
+      "A type of hardware",
+      "A web application"
+    ]
+  },
+  {
+    "id": 217,
+    "question": "What does 'SQL' stand for?",
+    "answer": "Structured Query Language",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Standard Query Language",
+      "Secure Query Language"
+    ]
+  },
+  {
+    "id": 218,
+    "question": "What is the primary function of a search engine?",
+    "answer": "To help users find information online",
+    "options": [
+      "To store data",
+      "To provide internet access",
+      "To help users find information online",
+      "To manage websites"
+    ]
+  },
+  {
+    "id": 219,
+    "question": "What does 'CSS' stand for?",
+    "answer": "Cascading Style Sheets",
+    "options": [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets",
+      "Computer Style Sheets"
+    ]
+  },
+  {
+    "id": 220,
+    "question": "What is an algorithm?",
+    "answer": "A step-by-step procedure for calculations",
+    "options": [
+      "A type of software",
+      "A step-by-step procedure for calculations",
+      "A programming language",
+      "A hardware component"
+    ]
+  },
+  {
+    "id": 221,
+    "question": "What does 'AI' stand for?",
+    "answer": "Artificial Intelligence",
+    "options": [
+      "Automated Interface",
+      "Artificial Intelligence",
+      "Applied Information",
+      "Algorithmic Intelligence"
+    ]
+  },
+  {
+    "id": 222,
+    "question": "What is the purpose of encryption?",
+    "answer": "To secure data",
+    "options": [
+      "To compress data",
+      "To secure data",
+      "To enhance performance",
+      "To back up data"
+    ]
+  },
+  {
+    "id": 223,
+    "question": "What is a web browser?",
+    "answer": "A software application for accessing information on the World Wide Web",
+    "options": [
+      "A type of server",
+      "A software application for accessing information on the World Wide Web",
+      "A programming language",
+      "A type of database"
+    ]
+  },
+  {
+    "id": 224,
+    "question": "What is a phishing attack?",
+    "answer": "A fraudulent attempt to obtain sensitive information",
+    "options": [
+      "An attempt to enhance security",
+      "A method of data encryption",
+      "A fraudulent attempt to obtain sensitive information",
+      "A network attack"
+    ]
+  },
+  {
+    "id": 225,
+    "question": "What does 'VPN' stand for?",
+    "answer": "Virtual Private Network",
+    "options": [
+      "Virtual Public Network",
+      "Virtual Private Network",
+      "Virtual Protected Network",
+      "Virtual Personal Network"
+    ]
+  },
+  {
+    "id": 226,
+    "question": "What is the main purpose of a data backup?",
+    "answer": "To prevent data loss",
+    "options": [
+      "To speed up processing",
+      "To enhance security",
+      "To prevent data loss",
+      "To improve accessibility"
+    ]
+  },
+  {
+    "id": 227,
+    "question": "What is a software update?",
+    "answer": "A release to fix issues or add features",
+    "options": [
+      "A method to uninstall programs",
+      "A release to fix issues or add features",
+      "A type of hardware upgrade",
+      "A system reset"
+    ]
+  },
+  {
+    "id": 228,
+    "question": "What is 'malware'?",
+    "answer": "Malicious software designed to harm or exploit any programmable device",
+    "options": [
+      "Software that protects computers",
+      "Malicious software designed to harm or exploit any programmable device",
+      "A type of antivirus",
+      "Software for managing data"
+    ]
+  },
+  {
+    "id": 229,
+    "question": "What does 'open-source' software mean?",
+    "answer": "Software with source code that anyone can inspect, modify, and enhance",
+    "options": [
+      "Software with no cost",
+      "Software that is free to use",
+      "Software with source code that anyone can inspect, modify, and enhance",
+      "Software that is easy to use"
+    ]
+  },
+  {
+    "id": 230,
+    "question": "What is cloud computing?",
+    "answer": "Using a network of remote servers hosted on the internet to store, manage, and process data",
+    "options": [
+      "Storing data on local servers",
+      "Using a network of remote servers hosted on the internet to store, manage, and process data",
+      "Creating websites on the cloud",
+      "Managing data through local applications"
+    ]
+  },
+  {
+    "id": 231,
+    "question": "What is a computer network?",
+    "answer": "A group of interconnected computers that can share resources",
+    "options": [
+      "A type of computer",
+      "A group of interconnected computers that can share resources",
+      "A server",
+      "A programming language"
+    ]
+  },
+  {
+    "id": 232,
+    "question": "What does 'IoT' stand for?",
+    "answer": "Internet of Things",
+    "options": [
+      "Internet of Technology",
+      "Internet of Tools",
+      "Internet of Things",
+      "Internet of Telecommunications"
+    ]
+  },
+  {
+    "id": 233,
+    "question": "What is the function of an operating system?",
+    "answer": "To manage computer hardware and software resources",
+    "options": [
+      "To manage computer hardware and software resources",
+      "To provide internet access",
+      "To store files",
+      "To run applications"
+    ]
+  },
+  {
+    "id": 234,
+    "question": "What does 'DDoS' stand for?",
+    "answer": "Distributed Denial of Service",
+    "options": [
+      "Direct Denial of Service",
+      "Distributed Denial of Service",
+      "Dynamic Denial of Service",
+      "Data Denial of Service"
+    ]
+  },
+  {
+    "id": 235,
+    "question": "What is the purpose of a debugger?",
+    "answer": "To identify and fix bugs in software",
+    "options": [
+      "To improve performance",
+      "To identify and fix bugs in software",
+      "To compile code",
+      "To store data"
+    ]
+  },
+  {
+    "id": 236,
+    "question": "What is a URL?",
+    "answer": "A specific address used to access resources on the internet",
+    "options": [
+      "A type of software",
+      "A specific address used to access resources on the internet",
+      "A web application",
+      "A type of database"
+    ]
+  },
+  {
+    "id": 237,
+    "question": "What does 'spam' refer to in email?",
+    "answer": "Unsolicited and often irrelevant messages",
+    "options": [
+      "A type of email client",
+      "Unsolicited and often irrelevant messages",
+      "A type of virus",
+      "A secure message"
+    ]
+  },
+  {
+    "id": 238,
+    "question": "What is a bot?",
+    "answer": "An automated program that performs tasks",
+    "options": [
+      "A hardware component",
+      "An automated program that performs tasks",
+      "A type of malware",
+      "A computer virus"
+    ]
+  },
+  {
+    "id": 239,
+    "question": "What does 'bandwidth' refer to?",
+    "answer": "The maximum rate of data transfer across a network",
+    "options": [
+      "The amount of data stored",
+      "The maximum rate of data transfer across a network",
+      "The speed of a computer",
+      "The size of a file"
+    ]
+  },
+  {
+    "id": 240,
+    "question": "What is the function of an API?",
+    "answer": "To allow different software applications to communicate",
+    "options": [
+      "To store data",
+      "To enhance performance",
+      "To allow different software applications to communicate",
+      "To manage databases"
+    ]
+  },
+  {
+    "id": 241,
+    "question": "What does 'GUI' stand for?",
+    "answer": "Graphical User Interface",
+    "options": [
+      "Graphical User Interface",
+      "General User Interface",
+      "Guided User Interface",
+      "Global User Interface"
+    ]
+  },
+  {
+    "id": 242,
+    "question": "What is a cache?",
+    "answer": "A storage layer that improves data retrieval speeds",
+    "options": [
+      "A type of software",
+      "A storage layer that improves data retrieval speeds",
+      "A database",
+      "A network protocol"
+    ]
+  },
+  {
+    "id": 243,
+    "question": "What does 'SDK' stand for?",
+    "answer": "Software Development Kit",
+    "options": [
+      "System Development Kit",
+      "Software Development Kit",
+      "Secure Development Kit",
+      "Standard Development Kit"
+    ]
+  },
+  {
+    "id": 244,
+    "question": "What is a pixel?",
+    "answer": "The smallest unit of a digital image",
+    "options": [
+      "The smallest unit of a digital image",
+      "A type of software",
+      "A hardware component",
+      "A network protocol"
+    ]
+  },
+  {
+    "id": 245,
+    "question": "What does 'IoT' refer to?",
+    "answer": "Devices connected to the internet",
+    "options": [
+      "Only smartphones",
+      "Devices connected to the internet",
+      "Wireless communication",
+      "Internet security"
+    ]
+  },
+  {
+    "id": 246,
+    "question": "What is a spreadsheet?",
+    "answer": "A digital tool for organizing data in rows and columns",
+    "options": [
+      "A type of database",
+      "A digital tool for organizing data in rows and columns",
+      "A programming language",
+      "A web application"
+    ]
+  },
+  {
+    "id": 247,
+    "question": "What does 'SSH' stand for?",
+    "answer": "Secure Shell",
+    "options": [
+      "Secure Socket Host",
+      "Secure Shell",
+      "Simple Shell",
+      "System Secure Host"
+    ]
+  },
+  {
+    "id": 248,
+    "question": "What is a domain name?",
+    "answer": "A human-readable address for a website",
+    "options": [
+      "A type of software",
+      "A human-readable address for a website",
+      "A server name",
+      "A protocol"
+    ]
+  },
+  {
+    "id": 249,
+    "question": "What is a data breach?",
+    "answer": "An incident where unauthorized access to data occurs",
+    "options": [
+      "A security protocol",
+      "An incident where unauthorized access to data occurs",
+      "A type of malware",
+      "A data backup"
+    ]
+  },
+  {
+    "id": 250,
+    "question": "What does 'BI' stand for?",
+    "answer": "Business Intelligence",
+    "options": [
+      "Business Integration",
+      "Business Intelligence",
+      "Business Information",
+      "Business Interface"
+    ]
+  },
+  {
+    "id": 251,
+    "question": "What does the term 'malware' refer to?",
+    "answer": "Malicious software designed to harm a computer system",
+    "options": [
+      "Software that protects from viruses",
+      "Malicious software designed to harm a computer system",
+      "Software that improves performance",
+      "Software that manages databases"
+    ]
+  },
+  {
+    "id": 252,
+    "question": "Which protocol is commonly used for secure web transactions?",
+    "answer": "HTTPS",
+    "options": ["HTTP", "SMTP", "FTP", "HTTPS"]
+  },
+  {
+    "id": 253,
+    "question": "What does 'AI' stand for?",
+    "answer": "Artificial Intelligence",
+    "options": [
+      "Automated Interaction",
+      "Artificial Intelligence",
+      "Advanced Internet",
+      "Artificial Internet"
+    ]
+  },
+  {
+    "id": 254,
+    "question": "Which programming language is used for web back-end development?",
+    "answer": "PHP",
+    "options": ["HTML", "PHP", "CSS", "JavaScript"]
+  },
+  {
+    "id": 255,
+    "question": "What is a byte?",
+    "answer": "A unit of digital information",
+    "options": [
+      "A unit of data storage",
+      "A type of software",
+      "A computer virus",
+      "A hardware component"
+    ]
+  },
+  {
+    "id": 256,
+    "question": "What does 'IP' stand for?",
+    "answer": "Internet Protocol",
+    "options": [
+      "Internet Platform",
+      "Internal Protocol",
+      "Internet Protocol",
+      "International Protocol"
+    ]
+  },
+  {
+    "id": 257,
+    "question": "What is the main purpose of a compiler?",
+    "answer": "To convert source code into machine code",
+    "options": [
+      "To interpret code at runtime",
+      "To convert source code into machine code",
+      "To manage databases",
+      "To store data"
+    ]
+  },
+  {
+    "id": 258,
+    "question": "Which programming paradigm focuses on objects?",
+    "answer": "Object-Oriented Programming",
+    "options": [
+      "Functional Programming",
+      "Procedural Programming",
+      "Logical Programming",
+      "Object-Oriented Programming"
+    ]
+  },
+  {
+    "id": 259,
+    "question": "What does the term 'cloud computing' refer to?",
+    "answer": "Storing and accessing data over the internet",
+    "options": [
+      "Local storage of data",
+      "Storing and accessing data over the internet",
+      "In-house data management",
+      "Networking computers together"
+    ]
+  },
+  {
+    "id": 260,
+    "question": "What is the purpose of an antivirus program?",
+    "answer": "To detect and remove malware",
+    "options": [
+      "To speed up the computer",
+      "To detect and remove malware",
+      "To manage software updates",
+      "To monitor performance"
+    ]
+  },
+  {
+    "id": 261,
+    "question": "What does 'HTTP' stand for?",
+    "answer": "HyperText Transfer Protocol",
+    "options": [
+      "HyperText Transport Protocol",
+      "HyperText Transfer Protocol",
+      "Hyper Transfer Text Protocol",
+      "HyperLink Transfer Protocol"
+    ]
+  },
+  {
+    "id": 262,
+    "question": "What is the main use of a VPN?",
+    "answer": "To secure internet connections",
+    "options": [
+      "To increase internet speed",
+      "To secure internet connections",
+      "To manage email",
+      "To block ads"
+    ]
+  },
+  {
+    "id": 263,
+    "question": "Which of these is a front-end web technology?",
+    "answer": "HTML",
+    "options": ["Java", "HTML", "Python", "C#"]
+  },
+  {
+    "id": 264,
+    "question": "What does '2FA' stand for?",
+    "answer": "Two-Factor Authentication",
+    "options": [
+      "Two-Factor Authentication",
+      "Two-Factor Authorization",
+      "Two-Factor Access",
+      "Two-Factor Account"
+    ]
+  },
+  {
+    "id": 265,
+    "question": "What is a domain name?",
+    "answer": "A human-readable address for a website",
+    "options": [
+      "A server location",
+      "A type of software",
+      "A human-readable address for a website",
+      "An email address"
+    ]
+  },
+  {
+    "id": 266,
+    "question": "Which tool is commonly used for version control?",
+    "answer": "Git",
+    "options": ["Docker", "Git", "Jira", "Trello"]
+  },
+  {
+    "id": 267,
+    "question": "What does 'BYOD' stand for?",
+    "answer": "Bring Your Own Device",
+    "options": [
+      "Bring Your Own Device",
+      "Bring Your Own Data",
+      "Bring Your Own Development",
+      "Bring Your Own Download"
+    ]
+  },
+  {
+    "id": 268,
+    "question": "What is the main function of an operating system?",
+    "answer": "To manage hardware and software resources",
+    "options": [
+      "To manage hardware and software resources",
+      "To design applications",
+      "To create websites",
+      "To store files"
+    ]
+  },
+  {
+    "id": 269,
+    "question": "What is the main advantage of SSDs over HDDs?",
+    "answer": "Faster data access speeds",
+    "options": [
+      "Lower cost",
+      "Larger capacity",
+      "Faster data access speeds",
+      "More durability"
+    ]
+  },
+  {
+    "id": 270,
+    "question": "What does 'DDoS' stand for?",
+    "answer": "Distributed Denial of Service",
+    "options": [
+      "Direct Denial of Service",
+      "Distributed Denial of Service",
+      "Dynamic Denial of Service",
+      "Dual Denial of Service"
+    ]
+  },
+  {
+    "id": 271,
+    "question": "What is a computer virus?",
+    "answer": "Malicious code that replicates itself",
+    "options": [
+      "A type of software",
+      "A security measure",
+      "Malicious code that replicates itself",
+      "A hardware component"
+    ]
+  },
+  {
+    "id": 272,
+    "question": "What is the purpose of a debugger?",
+    "answer": "To identify and fix errors in code",
+    "options": [
+      "To optimize performance",
+      "To identify and fix errors in code",
+      "To manage databases",
+      "To compile code"
+    ]
+  },
+  {
+    "id": 273,
+    "question": "What is the primary function of a database management system?",
+    "answer": "To store and manage data",
+    "options": [
+      "To create websites",
+      "To store and manage data",
+      "To process images",
+      "To analyze data"
+    ]
+  },
+  {
+    "id": 274,
+    "question": "Which of the following is a back-end programming language?",
+    "answer": "Ruby",
+    "options": ["HTML", "CSS", "Ruby", "JavaScript"]
+  },
+  {
+    "id": 275,
+    "question": "What does 'SaaS' stand for?",
+    "answer": "Software as a Service",
+    "options": [
+      "Software as a Service",
+      "System as a Software",
+      "Software as a System",
+      "Service as a Software"
+    ]
+  },
+  {
+    "id": 276,
+    "question": "What is the main purpose of a firewall?",
+    "answer": "To prevent unauthorized access",
+    "options": [
+      "To improve performance",
+      "To prevent unauthorized access",
+      "To store data",
+      "To manage applications"
+    ]
+  },
+  {
+    "id": 277,
+    "question": "What does 'HTTPS' stand for?",
+    "answer": "HyperText Transfer Protocol Secure",
+    "options": [
+      "HyperText Transfer Protocol Service",
+      "HyperText Transfer Protocol Secure",
+      "Hyper Transfer Text Protocol Secure",
+      "HyperText Transport Protocol Secure"
+    ]
+  },
+  {
+    "id": 278,
+    "question": "Which of these is a type of network?",
+    "answer": "LAN",
+    "options": ["WAN", "LAN", "PAN", "All of the above"]
+  },
+  {
+    "id": 279,
+    "question": "What is the purpose of a network switch?",
+    "answer": "To connect devices within a network",
+    "options": [
+      "To connect devices within a network",
+      "To monitor traffic",
+      "To provide internet access",
+      "To store data"
+    ]
+  },
+  {
+    "id": 280,
+    "question": "What does 'NAT' stand for?",
+    "answer": "Network Address Translation",
+    "options": [
+      "Network Access Technology",
+      "Network Address Translation",
+      "Network Automated Transfer",
+      "Network Application Technology"
+    ]
+  },
+  {
+    "id": 281,
+    "question": "What is the main use of a search engine?",
+    "answer": "To find information on the web",
+    "options": [
+      "To store files",
+      "To create websites",
+      "To find information on the web",
+      "To manage databases"
+    ]
+  },
+  {
+    "id": 282,
+    "question": "What does 'QR code' stand for?",
+    "answer": "Quick Response code",
+    "options": [
+      "Quick Response code",
+      "Quick Read code",
+      "Quality Response code",
+      "Quick Reference code"
+    ]
+  },
+  {
+    "id": 283,
+    "question": "Which type of software is commonly used for graphic design?",
+    "answer": "Adobe Photoshop",
+    "options": [
+      "Adobe Reader",
+      "Adobe Photoshop",
+      "Microsoft Word",
+      "PowerPoint"
+    ]
+  },
+  {
+    "id": 284,
+    "question": "What is the primary purpose of an IP address?",
+    "answer": "To identify devices on a network",
+    "options": [
+      "To secure data",
+      "To identify devices on a network",
+      "To store data",
+      "To monitor performance"
+    ]
+  },
+  {
+    "id": 285,
+    "question": "What is a 'sandbox' in computing?",
+    "answer": "A testing environment for software",
+    "options": [
+      "A type of malware",
+      "A testing environment for software",
+      "A storage device",
+      "A type of operating system"
+    ]
+  },
+  {
+    "id": 286,
+    "question": "What does 'SQL' stand for?",
+    "answer": "Structured Query Language",
+    "options": [
+      "Standard Query Language",
+      "Structured Query Language",
+      "Simple Query Language",
+      "Secure Query Language"
+    ]
+  },
+  {
+    "id": 287,
+    "question": "What is the main function of a web server?",
+    "answer": "To host websites",
+    "options": [
+      "To create databases",
+      "To host websites",
+      "To provide internet access",
+      "To monitor network traffic"
+    ]
+  },
+  {
+    "id": 288,
+    "question": "What does 'IoT' stand for?",
+    "answer": "Internet of Things",
+    "options": [
+      "Internet of Technology",
+      "Internet of Tools",
+      "Internet of Things",
+      "International of Things"
+    ]
+  },
+  {
+    "id": 289,
+    "question": "What is a 'cookie' in web technology?",
+    "answer": "A small piece of data stored on the user's computer",
+    "options": [
+      "A type of software",
+      "A small piece of data stored on the user's computer",
+      "A type of hardware",
+      "A database record"
+    ]
+  },
+  {
+    "id": 290,
+    "question": "What does 'open-source' software mean?",
+    "answer": "Software with publicly available source code",
+    "options": [
+      "Free software",
+      "Software with publicly available source code",
+      "Software with no warranty",
+      "Software with limited features"
+    ]
+  },
+  {
+    "id": 291,
+    "question": "What is the purpose of a load balancer?",
+    "answer": "To distribute traffic across multiple servers",
+    "options": [
+      "To monitor network traffic",
+      "To distribute traffic across multiple servers",
+      "To secure data",
+      "To store data"
+    ]
+  },
+  {
+    "id": 292,
+    "question": "What does 'RAM' stand for?",
+    "answer": "Random Access Memory",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Rapid Access Memory",
+      "Random Allocation Memory"
+    ]
+  },
+  {
+    "id": 293,
+    "question": "What is a 'host' in networking?",
+    "answer": "A device connected to a network",
+    "options": [
+      "A server only",
+      "A device connected to a network",
+      "A software application",
+      "A type of virus"
+    ]
+  },
+  {
+    "id": 294,
+    "question": "What does 'DNS' stand for?",
+    "answer": "Domain Name System",
+    "options": [
+      "Dynamic Name System",
+      "Domain Name Service",
+      "Domain Name System",
+      "Data Name System"
+    ]
+  },
+  {
+    "id": 295,
+    "question": "What is the main function of a proxy server?",
+    "answer": "To act as an intermediary for requests",
+    "options": [
+      "To store data",
+      "To process graphics",
+      "To act as an intermediary for requests",
+      "To manage email"
+    ]
+  },
+  {
+    "id": 296,
+    "question": "What is the purpose of a data warehouse?",
+    "answer": "To store and analyze large amounts of data",
+    "options": [
+      "To store small files",
+      "To store and analyze large amounts of data",
+      "To create websites",
+      "To improve performance"
+    ]
+  },
+  {
+    "id": 297,
+    "question": "What does 'VoIP' stand for?",
+    "answer": "Voice over Internet Protocol",
+    "options": [
+      "Voice over Internal Protocol",
+      "Voice over Internet Platform",
+      "Voice over Internet Protocol",
+      "Voice on Internal Protocol"
+    ]
+  },
+  {
+    "id": 298,
+    "question": "Which of the following is a type of malware?",
+    "answer": "Trojan",
+    "options": ["Trojan", "Firewall", "Antivirus", "Router"]
+  },
+  {
+    "id": 299,
+    "question": "What is the main purpose of data encryption?",
+    "answer": "To protect data from unauthorized access",
+    "options": [
+      "To compress data",
+      "To protect data from unauthorized access",
+      "To enhance performance",
+      "To back up data"
+    ]
+  },
+  {
+    "id": 300,
+    "question": "What does 'agile' refer to in software development?",
+    "answer": "A methodology focused on iterative development",
+    "options": [
+      "A programming language",
+      "A type of database",
+      "A methodology focused on iterative development",
+      "A software tool"
+    ]
+  }
 ]

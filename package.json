@@ -1,7 +1,7 @@
 {
-  "name": "@blumqa/astronomy",
-  "version": "1.0.1",
-  "description": "It's' a package to use dynamic q&a (questions and answers) of astronomy",
+  "name": "@blumqa/technology",
+  "version": "1.0.0",
+  "description": "It's' a package to use dynamic q&a (questions and answers) of technology",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -9,20 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewdotdev/blumqa-astronomy.git"
+    "url": "git+https://github.com/andrewdotdev/blumqa-technology.git"
   },
   "keywords": [
     "q&a",
     "questions",
     "answers",
     "quiz",
-    "astronomy",
+    "tech",
+    "technology",
     "trivia"
   ],
   "author": "andrewdotdev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewdotdev/blumqa-astronomy/issues"
+    "url": "https://github.com/andrewdotdev/blumqa-technology/issues"
   },
-  "homepage": "https://github.com/andrewdotdev/blumqa-astronomy#readme"
+  "homepage": "https://github.com/andrewdotdev/blumqa-technology#readme"
 }

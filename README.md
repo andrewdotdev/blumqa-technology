@@ -1,13 +1,13 @@
-# @blumqa/astronomy
+# @blumqa/technology
 
 ## What is it?
 
-It's' a package to use dynamic q&a (questions and answers) of astronomy
+It's' a package to use dynamic q&a (questions and answers) of technology
 
 ## How to install
 
 ```bash
-pnpm install @blumqa/astronomy
+pnpm install @blumqa/technology
 ```
 <span style="color:rgba(128,128,128,0.5)">You can use any package manager you want, as long as <code>blumqa</code> is added.</span>
 
@@ -23,7 +23,7 @@ getById(lang: string, id: number) // Output: {id: number, question: string, answ
 ```
 ## Example
 ```ts
-import { getRandom, getById } from '@blumqa/astronomy'
+import { getRandom, getById } from '@blumqa/technology'
 
 console.log(getRandom('en')) // Output: {id: number, question: string, answer: string, options: string[]}
 console.log(getById('es', 5)) // Output: {id: 5, question: "¿Quién fue el primer cosmonauta en viajar al espacio?", answer: "Yuri Gagarin", options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]}
