@@ -26,5 +26,5 @@ getById(lang: string, id: number) // Output: {id: number, question: string, answ
 import { getRandom, getById } from '@blumqa/technology'
 
 console.log(getRandom('en')) // Output: {id: number, question: string, answer: string, options: string[]}
-console.log(getById('es', 5)) // Output: {id: 5, question: "¿Quién fue el primer cosmonauta en viajar al espacio?", answer: "Yuri Gagarin", options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"]}
+console.log(getById('es', 5)) // Output: {id: 5, question: "¿Qué empresa tecnológica es conocida por desarrollar TensorFlow?", answer: "Google", options: ["Apple", "Amazon", "Google", "Microsoft"]}
 ```
