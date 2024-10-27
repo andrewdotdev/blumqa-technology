@@ -2,7 +2,7 @@
   "name": "@blumqa/technology",
   "version": "1.0.0",
   "description": "It's' a package to use dynamic q&a (questions and answers) of technology",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
