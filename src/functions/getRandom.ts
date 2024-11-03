@@ -7,7 +7,7 @@ import en from'../../questions/en.json'
 */
 
 export function getRandom (lang: string) {
-    if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
+    if (!['es', 'en'].includes(lang)) throw new Error("Language Options: 'en' or 'es'");
     let language = (lang === 'en' ? en : es);
     return language[select(lang)]
 }
