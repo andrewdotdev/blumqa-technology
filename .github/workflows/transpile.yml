@@ -29,5 +29,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install dependencies
+        run: pnpm install typescript
+
       - name: Build
         run: npx tsc
