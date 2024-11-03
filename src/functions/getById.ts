@@ -8,7 +8,7 @@ import en from'../../questions/en.json'
  */
 
 export function getById(lang: string, id: number) {
-    if (!['es', 'en'].includes(lang)) throw new Error("Options of lang: 'en' or 'es'");
+    if (!['es', 'en'].includes(lang)) throw new Error("Language options: 'en' or 'es'");
     let language = (lang === 'en' ? en : es);
     if(id < 1) id = 1
     if(language.length < id) id = language.length
